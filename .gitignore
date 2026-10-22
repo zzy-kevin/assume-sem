@@ -23,6 +23,7 @@ __pycache__/
 *.tif
 *.tiff
 !data/micrographs/**/*.jpg
+!/pipeline_final.jpg
 
 # --- Root-level symlinks / legacy duplicates of data/ ---
 /dinov3_pooled.npy

@@ -4,7 +4,7 @@ ASSUME turns unlabelled scientific images into an embedding whose every dimensio
 
 It is demonstrated on scanning electron microscopy (SEM) micrographs, but nothing in the pipeline is SEM-specific.
 
-![DINOv3 UMAP painted by ASSUME concepts](figures/fig_dino_umap_by_concept.png)
+![ASSUME embedding UMAP](figures/fig_assume_umap.png)
 
 ## Pipeline
 
@@ -13,7 +13,7 @@ It is demonstrated on scanning electron microscopy (SEM) micrographs, but nothin
 3. **Verifier agent** retrieves papers for each concept through a scientific paper-search MCP server. It keeps intrinsic specimen morphology and prunes instrument or imaging artefacts (charging, focus, contrast).
 4. **Embedding agent** scores each micrograph against the final rubrics, producing a 46-dimensional concept vector.
 
-![Pipeline](figures/fig_pipeline.png)
+![Pipeline](pipeline_final.jpg)
 
 ## Results
 
@@ -45,22 +45,22 @@ The run used 1,543 micrographs from 8 morphology classes, out of 14,620 in the d
 
 ## Quick start
 
+The ASSUME embeddings and concept latents are uploaded together with the micrographs. Follow these steps to run the demo viewer:
+
 ```bash
 python -m venv .venv
 .venv/Scripts/activate            # Windows; use `source .venv/bin/activate` on Linux/macOS
 pip install -r requirements.txt
+streamlit run demos/app_microstructure_equalizer.py
 ```
 
-Every result is in the repo, so you can reproduce the figures and run the demo without API access:
+To regenerate the figures:
 
 ```bash
-streamlit run demos/app_microstructure_equalizer.py
 python scripts/concept_plane_thumbnail_grids.py          # 10x10 concept-plane grids
-python scripts/make_fig_dino_concepts_and_retrieval.py   # DINOv3-by-concept and retrieval figures
+python scripts/make_fig_dino_concepts_and_retrieval.py   # UMAP and retrieval figures
 python scripts/make_fig_latent_traversal.py rank          # rank concepts for traversals
 ```
-
-Micrographs load from the original dataset paths when those exist and fall back to `data/micrographs/` when they don't (`assume.config.resolve_micrograph`).
 
 ### Re-running the agents
 

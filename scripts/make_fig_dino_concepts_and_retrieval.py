@@ -85,6 +85,21 @@ def fig_umap_by_concept(df, emb, ids, names, r2):
     print("saved", out)
 
 
+def fig_assume_umap(df):
+    xy = np.load(UMAP_CACHE)["assume"]
+    fig, ax = plt.subplots(figsize=(7, 6), dpi=200)
+    for cls, col in CLASS_COLORS.items():
+        m = (df["class_label"] == cls).to_numpy()
+        ax.scatter(xy[m, 0], xy[m, 1], s=7, c=col, label=cls.replace("_", " "), lw=0, alpha=0.85)
+    ax.set_title("ASSUME concept embedding (46-d), UMAP", fontsize=13, fontweight="bold")
+    ax.legend(fontsize=8, markerscale=2.5, frameon=False, loc="best")
+    ax.set_xticks([]); ax.set_yticks([])
+    out = FIG_DIR / "fig_assume_umap.png"
+    fig.savefig(out, bbox_inches="tight")
+    plt.close(fig)
+    print("saved", out)
+
+
 def image_stats(paths):
     st = np.zeros((len(paths), 2), np.float32)
     for i, p in enumerate(paths):
@@ -174,6 +189,8 @@ def main():
     which = sys.argv[1] if len(sys.argv) > 1 else "both"
     if which in ("both", "umap"):
         fig_umap_by_concept(df, emb, ids, names, probe_r2(emb, dino))
+    if which in ("both", "assume_umap"):
+        fig_assume_umap(df)
     if which in ("both", "retrieval"):
         fig_retrieval(df, emb, dino)
 
