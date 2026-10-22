@@ -1,0 +1,702 @@
+{
+  "substrate_exposure": {
+    "query": "Substrate Exposure: This concept measures the proportion of the underlying substrate surface that is visible and uncovered by deposited features or structures. (scanning electron microscopy)",
+    "papers": [
+      {
+        "title": "A new method for estimating nanoparticle deposition coverage from a set of weak-contrast SEM images.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/39303670/",
+        "year": "2024-09-14",
+        "abstract": "Imaging nanomaterials in hybrid systems is critical to understanding the structure and functionality of these systems. However, current technologies such as scanning electron microscopy (SEM) may obtain high resolution/contrast images at the cost of damaging or contaminating the sample. For example, to prevent the charging of organic substrate/matrix, a very thin layer of metal is coated on the surface, which will permanently contaminate the sample and eliminate the possibility of reusing it for"
+      },
+      {
+        "title": "Estimating Step Heights from Top-Down SEM Images.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/31109392/",
+        "year": "2019-05-21",
+        "abstract": "Scanning electron microscopy (SEM) is one of the most common inspection methods in the semiconductor industry and in research labs. To extract the height of structures using SEM images, various techniques have been used, such as tilting a sample, or modifying the SEM tool with extra sources and/or detectors. However, none of these techniques focused on extraction of height information directly from top-down images. In this work, using Monte Carlo simulations, we studied the relation between step"
+      },
+      {
+        "title": "Contrast of Backscattered Electron SEM Images of Nanoparticles on Substrates with Complex Structure.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/29109816/",
+        "year": "2017-04-06",
+        "abstract": "This study is concerned with backscattered electron scanning electron microscopy (BSE SEM) contrast of complex nanoscaled samples which consist of SiO2 nanoparticles (NPs) deposited on indium-tin-oxide covered bulk SiO2 and glassy carbon substrates. BSE SEM contrast of NPs is studied as function of the primary electron energy and working distance. Contrast inversions are observed which prevent intuitive interpretation of NP contrast in terms of material contrast. Experimental data is quantitativ"
+      },
+      {
+        "title": "Polymer-metal coating for high contrast SEM cross sections at the deep nanoscale.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30488943/",
+        "year": "2018-12-13",
+        "abstract": "In scanning electron microscopy (SEM), imaging nanoscale features by means of the cross-sectioning method becomes increasingly challenging with shrinking feature sizes. However, obtaining high quality images, at high magnification, is crucial for critical dimension and patterned feature evaluation. Therefore, in this work, we present a new sample preparation method for high performance cross-sectional secondary electron (SE) imaging, targeting features at the deep nanoscale and into the sub-10 n"
+      },
+      {
+        "title": "Quantitative evaluation of residual resist in electron beam lithography based on scanning electron microscopy imaging and thresholding segmentation algorithm.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/39442526/",
+        "year": "2024-11-01",
+        "abstract": "Electron beam lithography is a critical technology for achieving high-precision nanoscale patterning. The presence of resist residues in the structures can significantly affect subsequent processes such as etching and lift-off. However, the evaluation and optimization of resist residues currently relies on qualitative observations like scanning electron microscopy (SEM), necessitating multiple experiments to iteratively optimize exposure parameters, which is not only labor-intensive but also cos"
+      }
+    ]
+  },
+  "surface_planarity": {
+    "query": "Surface Planarity: This concept measures the degree to which a surface is flat and free from undulations, curvature, or significant topographic variations. (scanning electron microscopy)",
+    "papers": [
+      {
+        "title": "Evaluating scanning electron microscopy for the measurement of small-scale topography.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/39896093/",
+        "year": "2024",
+        "abstract": "For predicting surface performance, multiscale topography analysis consistently outperforms standard roughness metrics; however, surface-characterization tools limit the range of sizes that can be measured. Therefore, we evaluate the use of scanning electron microscopy (SEM) to systematically measure small-scale topography. While others have employed SEM for similar purposes, the novelty of this investigation lies in the development and validation of a simple, flexible procedure that can be appl"
+      },
+      {
+        "title": "Evaluation method of surface roughness using SEM.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41965980/",
+        "year": "2026-04-06",
+        "abstract": "Surface roughness plays a crucial role in determining the physical and functional properties of materials, particularly in electroplated coatings for semiconductor and manufacturing applications. In this study, we investigate the feasibility of assessing surface roughness by scanning electron microscope (SEM) combined with the photometric stereo (PS) method and using a segmented backscattered electron (BSE) detector-referred to as the SEM-PS method. Conventional SEM-PS method suffers from limite"
+      },
+      {
+        "title": "Measuring surface topography by scanning electron microscopy. II. Analysis of three estimators of surface roughness in second dimension and third dimension.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/17481355/",
+        "year": "2006-04",
+        "abstract": "Scanning electron microscopy (SEM) is widely used in surface studies and continuous efforts are carried out in the search of estimators of different surface characteristics. By using the variogram, we developed two of these estimators that were used to characterize the surface roughness from the SEM image texture. One of the estimators is related to the crossover between fractal region at low scale and the periodic region at high scale, whereas the other estimator characterizes the periodic regi"
+      },
+      {
+        "title": "Measuring surface topography with scanning electron microscopy. I. EZEImage: a program to obtain 3D surface data.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/17481354/",
+        "year": "2006-04",
+        "abstract": "Scanning electron microscopy (SEM) is widely used in the science of materials and different parameters were developed to characterize the surface roughness. In a previous work, we studied the surface topography with fractal dimension at low scale and two parameters at high scale by using the variogram, that is, variance vs. step log-log graph, of a SEM image. Those studies were carried out with the FERImage program, previously developed by us. To verify the previously accepted hypothesis by work"
+      },
+      {
+        "title": "Measurements of the surface microroughness with the scanning electron microscope.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/19196407/",
+        "year": "2009-01",
+        "abstract": "A three-dimensional reconstruction system for scanning electron microscope consisting of a quadruple scintillator detector, a four-channel frame-grabber and PC-based processing unit was developed. The authors explored a method that takes advantage of the angular distribution of secondary electron emission to obtain quantitative topography contrast and surface profiles. Software processing algorithms were developed to carry out the reconstruction process and compensate for several types of errors"
+      }
+    ]
+  },
+  "feature_aspect_ratio": {
+    "query": "Feature Aspect Ratio: The ratio of the dominant vertical dimension (height) to the dominant horizontal dimension (width or diameter) of individual structural features. (scanning electron microscopy)",
+    "papers": [
+      {
+        "title": "Exploring the accurate size measurement method for two typical nanostructures basing on SEM imaging.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/31563080/",
+        "year": "2019-09-20",
+        "abstract": "The accurate size measurement has been necessary in modern nanotechnology /semiconductor industry. Based on a sophisticated Monte Carlo scanning electron microscope simulation tool, gold nanorods and the silicon trapezoidal line, two commonly used nanostructures, were studied for aspect ratio and linewidth measurements, respectively. Accurate measurement for aspect ratio is significant for the optical property of gold nanorods. This work adopted an image-based method with a Monte Carlo simulatio"
+      },
+      {
+        "title": "Estimating Step Heights from Top-Down SEM Images.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/31109392/",
+        "year": "2019-05-21",
+        "abstract": "Scanning electron microscopy (SEM) is one of the most common inspection methods in the semiconductor industry and in research labs. To extract the height of structures using SEM images, various techniques have been used, such as tilting a sample, or modifying the SEM tool with extra sources and/or detectors. However, none of these techniques focused on extraction of height information directly from top-down images. In this work, using Monte Carlo simulations, we studied the relation between step"
+      },
+      {
+        "title": "The contrast-to-noise ratio for image quality evaluation in scanning electron microscopy.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/25533747/",
+        "year": "2014-12-22",
+        "abstract": "The contrast-to-noise ratio (CNR) is presented and characterized as a tool for quantitative noise measurement of scanning electron microscope (SEM) images. Analogies as well as differences between the CNR and the widely used signal-to-noise ratio (SNR) are analytically and experimentally investigated. With respect to practical SEM image evaluation using the contrast-to-noise ratio, a standard specimen and an evaluation program are presented."
+      },
+      {
+        "title": "Optical Detection Method for High Aspect Ratio Microstructures.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/32168956/",
+        "year": "2020-03-11",
+        "abstract": "High aspect ratio microstructures (HARMS) are of great importance for many application fields. Many defects are generated during the fabrication processes, especially in line microstructures, and it is necessary to examine the quality of the structures after each process. However, there is no suitable efficient nondestructive detection method to monitor microstructures during the fabrication processes. In this paper, an optical detection method capable of detecting the structures by analyzing th"
+      },
+      {
+        "title": "Feasibility study on 3-D shape analysis of high-aspect-ratio features using through-focus scanning optical microscopy.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/27464112/",
+        "year": "2016-07-25",
+        "abstract": "In-line metrologies currently used in the semiconductor industry are being challenged by the aggressive pace of device scaling and the adoption of novel device architectures. Metrology and process control of three-dimensional (3-D) high-aspect-ratio (HAR) features are becoming increasingly important and also challenging. In this paper we present a feasibility study of through-focus scanning optical microscopy (TSOM) for 3-D shape analysis of HAR features. TSOM makes use of 3-D optical data colle"
+      }
+    ]
+  },
+  "feature_taper": {
+    "query": "Feature Taper: The degree to which the width of a feature changes along its vertical axis, from base to top. (scanning electron microscopy)",
+    "papers": [
+      {
+        "title": "A technique for the non-destructive EUV mask sidewall angle measurement using scanning electron microscope.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/24266186/",
+        "year": "2013-12",
+        "abstract": "EUV mask absorber sidewall angle should be measured for mask Optical Proximity Correction and shadow effect estimation. Hence, verifying the three-dimensional profile of mask topography has become a challenge in EUV mask inspection. This paper evaluates EUV mask sidewall angle measurement by Field-Emission Critical Dimension (CD)-Scanning Electron Microscope (SEM) using JEOL JSM-7401F. SEM only produces two-dimensional gray images. Forming three-dimensional profiles from these images is a critic"
+      },
+      {
+        "title": "Estimating Step Heights from Top-Down SEM Images.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/31109392/",
+        "year": "2019-05-21",
+        "abstract": "Scanning electron microscopy (SEM) is one of the most common inspection methods in the semiconductor industry and in research labs. To extract the height of structures using SEM images, various techniques have been used, such as tilting a sample, or modifying the SEM tool with extra sources and/or detectors. However, none of these techniques focused on extraction of height information directly from top-down images. In this work, using Monte Carlo simulations, we studied the relation between step"
+      },
+      {
+        "title": "Conventional vs. model-based measurement of patterned line widths from scanning electron microscopy profiles.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/31421625/",
+        "year": "2025-05-30",
+        "abstract": "Scanning electron microscopy (SEM) is a practical tool to determine the dimensions of nanometer-scale features. Conventional width measurements use arbitrary criteria, e.g., a 50 % threshold crossing, to assign feature boundaries in the measured SEM intensity profile. To estimate the errors associated with such a procedure, we have simulated secondary electron signals from a suite of line shapes consisting of 30 nm tall silicon lines with varying width, sidewall angle, and corner rounding. Four "
+      },
+      {
+        "title": "Image sharpness measurement in the scanning electron-microscope--part III.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/10483879/",
+        "year": "1999-07-01",
+        "abstract": "Fully automated or semi-automated scanning electron microscopes (SEM) are now commonly used in semiconductor production and other forms of manufacturing. Testing and proving that the instrument is performing at a satisfactory level of sharpness is an important aspect of quality control. The application of Fourier analysis techniques to the analysis of SEM images is a useful methodology for sharpness measurement. In this paper, a statistical measure known as the multivariate kurtosis is proposed "
+      },
+      {
+        "title": "Scanning electron microscope measurement of width and shape of 10nm patterned lines using a JMONSEL-modeled library.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/25747180/",
+        "year": "2015-02-20",
+        "abstract": "The width and shape of 10nm to 12 nm wide lithographically patterned SiO2 lines were measured in the scanning electron microscope by fitting the measured intensity vs. position to a physics-based model in which the lines' widths and shapes are parameters. The approximately 32 nm pitch sample was patterned at Intel using a state-of-the-art pitch quartering process. Their narrow widths and asymmetrical shapes are representative of near-future generation transistor gates. These pose a challenge: th"
+      }
+    ]
+  },
+  "feature_form_uniformity": {
+    "query": "Feature Form Uniformity: The degree to which individual features exhibit consistent shape, surface morphology, and adherence to a regular, uniform form across the micrograph. (scanning electron microscopy)",
+    "papers": [
+      {
+        "title": "Image sharpness measurement in the scanning electron-microscope--part III.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/10483879/",
+        "year": "1999-07-01",
+        "abstract": "Fully automated or semi-automated scanning electron microscopes (SEM) are now commonly used in semiconductor production and other forms of manufacturing. Testing and proving that the instrument is performing at a satisfactory level of sharpness is an important aspect of quality control. The application of Fourier analysis techniques to the analysis of SEM images is a useful methodology for sharpness measurement. In this paper, a statistical measure known as the multivariate kurtosis is proposed "
+      },
+      {
+        "title": "No-Reference Quality Assessment Method for Blurriness of SEM Micrographs with Multiple Texture.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/31281563/",
+        "year": "2019-06-02",
+        "abstract": "Scanning electron microscopy (SEM) plays an important role in the intuitive understanding of microstructures because it can provide ultrahigh magnification. Tens or hundreds of images are regularly generated and saved during a typical microscopy imaging process. Given the subjectivity of a microscopist's focusing operation, blurriness is an important distortion that debases the quality of micrographs. The selection of high-quality micrographs using subjective methods is expensive and time-consum"
+      },
+      {
+        "title": "Scanning electron microscope: potentials in the morphology of microorganisms.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/6058004/",
+        "year": "1967-12-08",
+        "abstract": "Morphologic characteristics related to ecology and evolutionary sequences, and to specific, generic, and familial relations, can now be determined with the scanning electron microscope. These detailed characteristics will help to establish a more natural faunal classification and will enable more accurate ecologic and biostratigraphic correlations."
+      },
+      {
+        "title": "Measuring the randomness of micro and nanostructure spatial distributions: Effects of Scanning Electron Microscope image processing and analysis",
+        "url": "https://arxiv.org/abs/2204.04660",
+        "year": "2022-04-10",
+        "abstract": "The quantitative characterization of the degree of randomness and aggregation of surface micro and nanostructures is critical to evaluate their effects on targeted functionalities. To this end, the methods of Point Pattern Analysis (PPA), largely used in ecology and medical imaging, seem to provide a powerful toolset. However, the application of these techniques requires the extraction of the point pattern of nanostructures from their microscope images. In this work, we address the issue of the "
+      },
+      {
+        "title": "A systematic method for predetermined scanning electron microscope analysis in dental science.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/20695027/",
+        "year": "2010-03-01",
+        "abstract": "Scanning electron microscope evaluation could be criticized if the method adopted to correct for bias is not specified in the study design. Observers can draw conclusions from images unconsciously chosen to best support their research hypotheses, impairing the basic research principle of operator's impartiality. In this study, a systematic observation method has been described and verified for repeatability. The number and the observation points on a certain specimen have been predetermined usin"
+      }
+    ]
+  },
+  "feature_dimensionality": {
+    "query": "Feature Dimensionality: This concept quantifies the apparent dimensionality of the primary structural elements, ranging from point-like (0D) to linear (1D), planar (2D), or volumetric (3D) features. (scanning electron microscopy)",
+    "papers": [
+      {
+        "title": "Measuring surface topography by scanning electron microscopy. II. Analysis of three estimators of surface roughness in second dimension and third dimension.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/17481355/",
+        "year": "2006-04",
+        "abstract": "Scanning electron microscopy (SEM) is widely used in surface studies and continuous efforts are carried out in the search of estimators of different surface characteristics. By using the variogram, we developed two of these estimators that were used to characterize the surface roughness from the SEM image texture. One of the estimators is related to the crossover between fractal region at low scale and the periodic region at high scale, whereas the other estimator characterizes the periodic regi"
+      },
+      {
+        "title": "Characterization of nanoporous structures: from three dimensions to two dimensions.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/27714154/",
+        "year": "2016-01-13",
+        "abstract": "The scanning electron microscope (SEM) has revealed a colorful three-dimensional world due to its great depth of field. However, the abundance of structural information imposes tough challenges to quantitative image analysis. In the current investigation, we developed a SEM-image polishing (SIP) based quantitative SEM-image analysis (QSIA) technique. As an example, QSIA was employed to characterize nanoporous silica. The results confirmed that the nanoporous silica samples, processed via sol-gel"
+      },
+      {
+        "title": "Three-dimensional morphometry in scanning electron microscopy: a technique for accurate dimensional and angular measurements of microstructures using stereopaired digitized images and digital image analysis.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/10444299/",
+        "year": "1999-07",
+        "abstract": "A method for accurate dimensional and angular measurements of microstructures analysed in the scanning electron microscope is described. The method considers central and parallel projections and involves (a) digital image acquisition of stereopaired images from the scanning electron microscope's photodisplay, (b) generation of 3D-image representations, (c) setting of measuring points in the digitized stereopaired images, (d) computation of exact space coordinates (x/y/z) from the corresponding p"
+      },
+      {
+        "title": "Characterization of nanostructured material images using fractal descriptors",
+        "url": "https://arxiv.org/abs/1212.2677",
+        "year": "2012-12-11",
+        "abstract": "This work presents a methodology to the morphology analysis and characterization of nanostructured material images acquired from FEG-SEM (Field Emission Gun-Scanning Electron Microscopy) technique. The metrics were extracted from the image texture (mathematical surface) by the volumetric fractal descriptors, a methodology based on the Bouligand-Minkowski fractal dimension, which considers the properties of the Minkowski dilation of the surface points. An experiment with galvanostatic anodic tita"
+      },
+      {
+        "title": "Fractal and Lacunarity Analyses: Quantitative Characterization of Hierarchical Surface Topographies.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/26758776/",
+        "year": "2016-01-13",
+        "abstract": "Biomimetic hierarchical surface structures that exhibit features having multiple length scales have been used in many technological and engineering applications. Their surface topographies are most commonly analyzed using scanning electron microscopy (SEM), which only allows for qualitative visual assessments. Here we introduce fractal and lacunarity analyses as a method of characterizing the SEM images of hierarchical surface structures in a quantitative manner. Taking femtosecond laser-irradia"
+      }
+    ]
+  },
+  "feature_interpenetration": {
+    "query": "Feature Interpenetration: This concept measures the degree to which distinct features or phases are intertwined and occupy the same spatial regions, rather than existing as separate, discrete entities. (scanning electron microscopy)",
+    "papers": [
+      {
+        "title": "Segmentability evaluation of back-scattered SEM images of multiphase materials.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/38065012/",
+        "year": "2023-11-24",
+        "abstract": "Segmentation methods are very useful tools in the Electron Microscopy inspection of materials, enabling the extraction of quantitative results from microscopy images. Back-Scattered Electron (BSE) images carry information of the mean atomic number in the interaction volume and hence can be used to quantify the phase composition in multiphase materials. Since phase composition and proportion affects the material properties and hence its applications, the segmentation accuracy of such images rende"
+      },
+      {
+        "title": "Grid-based electron-solid interaction simulation for characterizing high-dimensional microstructures.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/32688231/",
+        "year": "2020-07-02",
+        "abstract": "Three-dimensional (3D) micro- and nanostructural characterization using scanning electron microscope (SEM) and electron-solid interaction simulations (ESIS) has attracted broad interest in various research fields. However, 3D SEM-ESIS still faces key challenges in characterizing and modelling complex microstructures. In this paper, a new grid-based simulation scheme is developed to enable ESIS of complex microstructures. In contrast to the widely used region-based approach, the scheme presented "
+      },
+      {
+        "title": "Three-dimensional characterization of pigment dispersion in dried paint films using focused ion beam-scanning electron microscopy.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22293467/",
+        "year": "2012-02-01",
+        "abstract": "The combination of integrated focused ion beam-scanning electron microscope (FIB-SEM) serial sectioning and imaging techniques with image analysis provided quantitative characterization of three-dimensional (3D) pigment dispersion in dried paint films. The focused ion beam in a FIB-SEM dual beam system enables great control in slicing paints, and the sectioning process can be synchronized with SEM imaging providing high quality serial cross-section images for 3D reconstruction. Application of Eu"
+      },
+      {
+        "title": "Stereological analysis in scanning electron microscopy.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/491978/",
+        "year": "1979-09",
+        "abstract": "The traditional field of stereological analysis based on quantitative image analysis data is expanded to include scanning electron microscopy (SEM). Two major methodological advances enable useful results to be obtained: 1) Image recording of backscattered electrons using an annular semi-conductor detector; 2) Direct link between SEM and image analyser by means of an on-line coupling providing synchronisation of both sub-systems."
+      },
+      {
+        "title": "Measuring the randomness of micro- and nanostructure spatial distributions: Effects of scanning electron microscope image processing and analysis.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/36206502/",
+        "year": "2022-10-17",
+        "abstract": "The quantitative characterisation of the degree of randomness and aggregation of surface micro- and nanostructures is critical to evaluate their effects on targeted functionalities. To this end, the methods of point pattern analysis (PPA), largely used in ecology and medical imaging, seem to provide a powerful toolset. However, the application of these techniques requires the extraction of the point pattern of nanostructures from their microscope images. In this work, we address the issue of the"
+      }
+    ]
+  },
+  "feature_brightness_contrast": {
+    "query": "Feature Brightness Contrast: This concept quantifies the difference in brightness (intensity) between the features and the surrounding background in the SEM image. (scanning electron microscopy)",
+    "papers": [
+      {
+        "title": "The contrast-to-noise ratio for image quality evaluation in scanning electron microscopy.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/25533747/",
+        "year": "2014-12-22",
+        "abstract": "The contrast-to-noise ratio (CNR) is presented and characterized as a tool for quantitative noise measurement of scanning electron microscope (SEM) images. Analogies as well as differences between the CNR and the widely used signal-to-noise ratio (SNR) are analytically and experimentally investigated. With respect to practical SEM image evaluation using the contrast-to-noise ratio, a standard specimen and an evaluation program are presented."
+      },
+      {
+        "title": "Contrast-to-gradient method for the evaluation of image resolution in scanning electron microscopy.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/12630780/",
+        "year": "2002",
+        "abstract": "In a previous study, we proposed the contrast-to-gradient (CG) method for evaluating image resolution. Here, the CG resolution is defined as a weighted harmonic mean of the local resolution, which is proportional to the quotient of the threshold contrast divided by the local gradient. The local gradient is calculated from the quadratic function that best fits the local pixel intensities over the region of interest (ROI) of 3 x 3 or 5 x 5 pixels in size. To refine the CG method, some modification"
+      },
+      {
+        "title": "Evaluation of both image resolution and contrast-to-noise ratio in scanning electron microscopy.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/17977979/",
+        "year": "2007-08",
+        "abstract": "The contrast-to-gradient (CG) resolution has been defined as a weighted harmonic mean of the local resolution, i.e. the length defining the object's local fine structure at each pixel position. The newly defined resolution Res is defined as 2 sigma/ sqrt 2, where 2 sigma is a sharpness factor of the image pattern obtained by the conversion 2 sigma = ARCG + B using default constants A and B. In the present study, we have extended the algorithm to change the constants from default values to calibr"
+      },
+      {
+        "title": "An improved contrast equalization technique for contrast enhancement in scanning electron microscopy images.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30198214/",
+        "year": "2018-09-09",
+        "abstract": "In scanning electron microscopy (SEM), an intensive beam of electrons is utilized to generate high-quality images that can be used across scientific disciplines including biology and medicine. However, the images produced by different SEM devices are often degraded by a low-contrast effect as a result of various existing limitations. Hence, an improved contrast equalization technique is proposed in this article to ameliorate the contrast of SEM images and provide better visual quality results. T"
+      },
+      {
+        "title": "Highly accurate SNR measurement using the covariance of two SEM images with the identical view.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/21866559/",
+        "year": "2011-08-22",
+        "abstract": "Quality of an SEM image is strongly influenced by the extent of noise. As a well-known method in the field of SEM, the covariance is applied to measure the signal-to-noise ratio (SNR). This method has potential ability for highly accurate measurement of the SNR, which is hardly known until now. If the precautions discussed in this article are adopted, that method can demonstrate its real ability. These precautions are strongly related to \"proper acquisition of two images with the identical view,"
+      }
+    ]
+  },
+  "feature_surface_texture": {
+    "query": "Feature Surface Texture: The presence and prominence of fine-scale patterns, irregularities, or striations on the visible surfaces of features. (scanning electron microscopy)",
+    "papers": [
+      {
+        "title": "Scanning electron microscopy of cell surface morphology.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/18228517/",
+        "year": "2007-12",
+        "abstract": "The surface of metazoan cells is a landscape not clearly visualized by light microscopy. Many cells elaborate protrusive structures such as microvilli, filopodia, lamellipodia, and surface ruffles that play important roles in the interaction between the cell and its environment. The high resolution of scanning electron microscopy makes it an ideal technique for studies of the cell surface; however, preservation of fine surface structure can be problematic. Here we highlight the critical factors "
+      },
+      {
+        "title": "Evaluating scanning electron microscopy for the measurement of small-scale topography.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/39896093/",
+        "year": "2024",
+        "abstract": "For predicting surface performance, multiscale topography analysis consistently outperforms standard roughness metrics; however, surface-characterization tools limit the range of sizes that can be measured. Therefore, we evaluate the use of scanning electron microscopy (SEM) to systematically measure small-scale topography. While others have employed SEM for similar purposes, the novelty of this investigation lies in the development and validation of a simple, flexible procedure that can be appl"
+      },
+      {
+        "title": "Image based evaluation of textured 3DSEM models.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/35490533/",
+        "year": "2022-04-02",
+        "abstract": "Photogrammetric methods enable the construction of 3D SEM models from 2D images. Most software for this purpose is designed for photographic images. The software tries to minimize modelling error but some uncertainty usually remains in the model. In such approaches no ground truth measurement for microscopic objects exists for comparison with the finished model. In the proposed method, a textured model surface is compared to the SEM images to map the error locations on the model. The method is i"
+      },
+      {
+        "title": "Assessment of engineered surfaces roughness by high-resolution 3D SEM photogrammetry.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/28340394/",
+        "year": "2017-03-07",
+        "abstract": "We describe a methodology to obtain three-dimensional models of engineered surfaces using scanning electron microscopy and multi-view photogrammetry (3DSEM). For the reconstruction of the 3D models of the surfaces we used freeware available in the cloud. The method was applied to study the surface roughness of metallic samples patterned with parallel grooves by means of laser. The results are compared with measurements obtained using stylus profilometry (PR) and SEM stereo-photogrammetry (SP). T"
+      },
+      {
+        "title": "Fine details on the surface of human hair.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/19291053/",
+        "year": "1991-06",
+        "abstract": "Synopsis Some previously unreported fine variations in the form of normal hairs are described as they are observed in the scanning electron microscope (SEM). They all arise in the course of surface frictional wear and the chipping away of the hair surface scale edges and include remanent surface impressions of cuticle scale edges, 'false' scale edges, granular surface remnants and highly irregular (chevron) scale patterns. Mechanisms are proposed for the way in which each of these different fine"
+      }
+    ]
+  },
+  "feature_cross_sectional_uniformity": {
+    "query": "Feature Cross-Sectional Uniformity: The degree to which the cross-sectional shape of individual features remains consistent along their length or across multiple instances. (scanning electron microscopy)",
+    "papers": [
+      {
+        "title": "Characterizing Width Uniformity by Wave Propagation",
+        "url": "https://arxiv.org/abs/cond-mat/0305010",
+        "year": "2003-05-01",
+        "abstract": "This work describes a novel image analysis approach to characterize the uniformity of objects in agglomerates by using the propagation of normal wavefronts. The problem of width uniformity is discussed and its importance for the characterization of composite structures normally found in physics and biology highlighted. The methodology involves identifying each cluster (i.e. connected component) of interest, which can correspond to objects or voids, and estimating the respective medial axes by us"
+      },
+      {
+        "title": "Beam Cross Sections Create Mixtures: Improving Feature Localization in Secondary Electron Imaging",
+        "url": "https://arxiv.org/abs/2508.09942",
+        "year": "2025-08-13",
+        "abstract": "Secondary electron (SE) imaging techniques, such as scanning electron microscopy and helium ion microscopy (HIM), use electrons emitted by a sample in response to a focused beam of charged particles incident at a grid of raster scan positions. Spot size -- the diameter of the incident beam's spatial profile -- is one of the limiting factors for resolution, along with various sources of noise in the SE signal. The effect of the beam spatial profile is commonly understood as convolutional. We show"
+      },
+      {
+        "title": "Measuring the randomness of micro and nanostructure spatial distributions: Effects of Scanning Electron Microscope image processing and analysis",
+        "url": "https://arxiv.org/abs/2204.04660",
+        "year": "2022-04-10",
+        "abstract": "The quantitative characterization of the degree of randomness and aggregation of surface micro and nanostructures is critical to evaluate their effects on targeted functionalities. To this end, the methods of Point Pattern Analysis (PPA), largely used in ecology and medical imaging, seem to provide a powerful toolset. However, the application of these techniques requires the extraction of the point pattern of nanostructures from their microscope images. In this work, we address the issue of the "
+      },
+      {
+        "title": "Autocorrelation-based beam shape optimization in scanning electron microscopy",
+        "url": "https://arxiv.org/abs/2610.11414",
+        "year": "2026-10-08",
+        "abstract": "Many automatically focusing algorithms for scanning electron microscopes exist. Typically, these optimize a single derived metric (such as image sharpness) without considering the intrinsic beam shape. We describe an algorithm to automatically focus and stigmate scanning electron microscopes based on the autocorrelation of captured images. In the first part of this work, we develop the theoretical basis of using the autocorrelation to approximate the current beam shape. In the second part, we us"
+      },
+      {
+        "title": "Redundant Cross-Correlation for Drift Correction in SEM Nanoparticle Imaging",
+        "url": "https://arxiv.org/abs/2410.23390",
+        "year": "2024-10-30",
+        "abstract": "Scanning Electron Microscopy (SEM) is a widely used tool for nanoparticle characterization, but long-term directional drift can compromise image quality. We present a novel algorithm for post-imaging drift correction in SEM nanoparticle imaging. Our approach combines multiple rapidly acquired, noisy images to produce a single high-quality overlay through redundant cross-correlation, preventing drift-induced distortions. The preservation of critical geometrical properties and accurate imaging of "
+      }
+    ]
+  },
+  "feature_tip_morphology": {
+    "query": "Feature Tip Morphology: The characteristic shape and sharpness of the terminal ends of elongated or protruding features. (scanning electron microscopy)",
+    "papers": [
+      {
+        "title": "Scanning electron microscopy of cell surface morphology.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/18228517/",
+        "year": "2007-12",
+        "abstract": "The surface of metazoan cells is a landscape not clearly visualized by light microscopy. Many cells elaborate protrusive structures such as microvilli, filopodia, lamellipodia, and surface ruffles that play important roles in the interaction between the cell and its environment. The high resolution of scanning electron microscopy makes it an ideal technique for studies of the cell surface; however, preservation of fine surface structure can be problematic. Here we highlight the critical factors "
+      },
+      {
+        "title": "[A morphological study of human hair tips by scanning electronic microscope (SEM)].",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/11938877/",
+        "year": "1998",
+        "abstract": "Morphological characteristics of human hair tip was studied by SEM. It was concluded that human hair tips could be classified into eight types. The tip formation, distribution and changes after being trimmed were explored. This study can be used in the mechanism research of human hair growth and the forensic hair examination."
+      },
+      {
+        "title": "Characterizing atomic force microscopy tip shape in use.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/19441396/",
+        "year": "2009-02",
+        "abstract": "A new tip characterizer based on the fabrication of multilayer thin films for atomic force microscopy (AFM) was developed to analyze the effective tip shape while in use. The precise structure of this tip characterizer was measured by transmission electron microscopy. Four different types of commercial tips with various radii were characterized by the tip characterizer and by conventional scanning electron microscopy (SEM). The results were compared to obtain a relationship between the actual an"
+      },
+      {
+        "title": "Electron beam confinement and image contrast enhancement in near field emission scanning electron microscopy.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/19124202/",
+        "year": "2008-11-27",
+        "abstract": "In conventional scanning electron microscopy (SEM), the lateral resolution is limited by the electron beam diameter impinging on the specimen surface. Near field emission scanning electron microscopy (NFESEM) provides a simple means of overcoming this limit; however, the most suitable field emitter remains to be determined. NFESEM has been used in this work to investigate the W (110) surface with single-crystal tungsten tips of (310), (111), and (100)-orientations. The topographic images generat"
+      },
+      {
+        "title": "Nanotip electron gun for the scanning electron microscope.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/16878784/",
+        "year": "2006-05-01",
+        "abstract": "Experimental nanotips have shown significant improvement in the resolution performance of a cold field emission scanning electron microscope (SEM). Nanotip electron sources are very sharp electron emitter tips used as a replacement for the conventional tungsten field emission (FE) electron sources. Nanotips offer higher brightness and smaller electron source size. An electron microscope equipped with a nanotip electron gun can provide images with higher spatial resolution and with better signal-"
+      }
+    ]
+  },
+  "substrate_particle_coverage": {
+    "query": "Substrate Particle Coverage: The extent to which the underlying substrate surface is covered by discrete particles or granular material. (scanning electron microscopy)",
+    "papers": [
+      {
+        "title": "Reference sample for the evaluation of SEM image resolution at a high magnification--nanometer-scale Au particles on an HOPG substrate.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/16123061/",
+        "year": "2005-08-01",
+        "abstract": "A new sample preparation technique is proposed for evaluating image resolution in a high magnification range of SEM. The proposed reference samples are uniformly distributed nanometer-scale Au particles on HOPG substrate. The samples are fabricated using the conventional ion sputter coater. The grain size and granularity are controlled by reducing the sputter-induced damage in the top layers of HOPG. The sample heating prior to SEM imaging is essential to suppress beam induced contamination. The"
+      },
+      {
+        "title": "Contrast of Backscattered Electron SEM Images of Nanoparticles on Substrates with Complex Structure.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/29109816/",
+        "year": "2017-04-06",
+        "abstract": "This study is concerned with backscattered electron scanning electron microscopy (BSE SEM) contrast of complex nanoscaled samples which consist of SiO2 nanoparticles (NPs) deposited on indium-tin-oxide covered bulk SiO2 and glassy carbon substrates. BSE SEM contrast of NPs is studied as function of the primary electron energy and working distance. Contrast inversions are observed which prevent intuitive interpretation of NP contrast in terms of material contrast. Experimental data is quantitativ"
+      },
+      {
+        "title": "A new method for estimating nanoparticle deposition coverage from a set of weak-contrast SEM images.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/39303670/",
+        "year": "2024-09-14",
+        "abstract": "Imaging nanomaterials in hybrid systems is critical to understanding the structure and functionality of these systems. However, current technologies such as scanning electron microscopy (SEM) may obtain high resolution/contrast images at the cost of damaging or contaminating the sample. For example, to prevent the charging of organic substrate/matrix, a very thin layer of metal is coated on the surface, which will permanently contaminate the sample and eliminate the possibility of reusing it for"
+      },
+      {
+        "title": "Contrast of Highly Dispersed Metal Nanoparticles in High-resolution Secondary Electron and Backscattered Electron Images of Supported Metal Catalysts.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/10898824/",
+        "year": "2000-07",
+        "abstract": "Platinum nanoparticles finely dispersed in activated carbon powders have been observed with high contrast in secondary electron (SE) and backscattered electron (BE) images. The factors that contribute to the visibility of small metal particles in high-resolution BE and SE images are discussed. Monte Carlo simulations provided insight into the scattering of electrons by small, heavy-element particles located on, or embedded in, light-element supports. The visibility of Pt nanoparticles in BE imag"
+      },
+      {
+        "title": "A Concept for Three-Dimensional Particle Metrology Based on Scanning Electron Microscopy and Structure-from-Motion Photogrammetry.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/35465391/",
+        "year": "2020-04-29",
+        "abstract": "Scanning electron microscopy (SEM) has been frequently used for size and shape measurements of particles. SEM images offer two-dimensional (2D) information about a particle's lateral dimensions. Unfortunately, information about the particle's three-dimensional (3D) size and shape remains unavailable. To resolve this issue, I propose a new concept in SEM: 3D particle metrology obtained by applying structure-from-motion (SfM) algorithms to multiple rotational SEM images of particles deposited onto"
+      }
+    ]
+  },
+  "image_focus_uniformity": {
+    "query": "Image Focus Uniformity: The consistency of sharpness and clarity across the visible depth or plane of the micrograph. (scanning electron microscopy)",
+    "papers": [
+      {
+        "title": "Evaluating sharpness functions for automated scanning electron microscopy.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/21050212/",
+        "year": "2010-10",
+        "abstract": "Fast and reliable autofocus techniques are an important topic for automated scanning electron microscopy. In this paper, different autofocus techniques are discussed and applied to a variety of experimental through-focus series of scanning electron microscopy images with different geometries. The procedure of quality evaluation is described, and for a variety of scanning electron microscope samples it is demonstrated that techniques based on image derivatives and Fourier transforms are in genera"
+      },
+      {
+        "title": "Metrics for focusing in extremely noisy scanning electron microscopy condition.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/15283247/",
+        "year": "2004-05-01",
+        "abstract": "Finding a best focused image in very noisy condition is an extremely difficult task for the SEM user. If a performance, which is much higher than that of an expert in focusing, can be achieved in a computer-controlled scanning electron microscope (SEM), it will be very helpful for our field due to the many possible applications. To accomplish this work, we employ a powerful metric-the covariance obtained by a special scanning method. It can select the best focused image from a series of SEM imag"
+      },
+      {
+        "title": "No-Reference Quality Assessment Method for Blurriness of SEM Micrographs with Multiple Texture.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/31281563/",
+        "year": "2019-06-02",
+        "abstract": "Scanning electron microscopy (SEM) plays an important role in the intuitive understanding of microstructures because it can provide ultrahigh magnification. Tens or hundreds of images are regularly generated and saved during a typical microscopy imaging process. Given the subjectivity of a microscopist's focusing operation, blurriness is an important distortion that debases the quality of micrographs. The selection of high-quality micrographs using subjective methods is expensive and time-consum"
+      },
+      {
+        "title": "Image sharpness measurement in the scanning electron-microscope--part III.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/10483879/",
+        "year": "1999-07-01",
+        "abstract": "Fully automated or semi-automated scanning electron microscopes (SEM) are now commonly used in semiconductor production and other forms of manufacturing. Testing and proving that the instrument is performing at a satisfactory level of sharpness is an important aspect of quality control. The application of Fourier analysis techniques to the analysis of SEM images is a useful methodology for sharpness measurement."
+      },
+      {
+        "title": "A method for personal expertise-independent evaluation of image resolution in scanning electron microscopy.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/12166807/",
+        "year": "2002-07-01",
+        "abstract": "The two conventional methods currently employed for the evaluation of image resolution in scanning electron microscopy are the gap method and a fast Fourier transform (FFT) method. These can be highly dependent on personal expertise on the distinction between signal information and noise contained in a micrograph. Hence, the present paper proposes an alternative method (referred to as a contrast-to-gradient (CG) method) that can determine the image resolution of a micrograph without requiring pe"
+      }
+    ]
+  },
+  "feature_relief_height": {
+    "query": "Feature Relief Height: The perceived vertical height or protrusion of features from the substrate or surrounding surface. (scanning electron microscopy)",
+    "papers": [
+      {
+        "title": "Estimating Step Heights from Top-Down SEM Images.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/31109392/",
+        "year": "2019-05-21",
+        "abstract": "Scanning electron microscopy (SEM) is one of the most common inspection methods in the semiconductor industry and in research labs. To extract the height of structures using SEM images, various techniques have been used, such as tilting a sample, or modifying the SEM tool with extra sources and/or detectors. However, none of these techniques focused on extraction of height information directly from top-down images. In this work, using Monte Carlo simulations, we studied the relation between step"
+      },
+      {
+        "title": "Vertical distance from shading in the SEM.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/33285365/",
+        "year": "2020-11-17",
+        "abstract": "Vertical data collected by Scanning Electron Microscopy (SEM) are important for sample characterization, 3D reconstruction, and flex manipulation. Traditional methods are limited by the extent to which the probe obstructs the view of the sample along the vertical axis. Herein, we propose a novel SEM microprobe for measuring the vertical distance between the probe and substrate. To form a semi-transparent hole that is set as the objective regions in processing of the SEM images, an epoxy film was"
+      },
+      {
+        "title": "Considerations for the quantitative analysis of coated reliefs.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/2413604/",
+        "year": "1985-11-01",
+        "abstract": "The contrast visible in a coated relief specimen viewed by transmission electron microscopy is generated by the angular difference between the direction of contrast coat evaporation and the direction from which the relief is viewed. This contrast can often be exploited for the computer reconstruction of specimen relief from optical density data if the contrast angle is known. If an additional backing coat is present, the relief must be viewed along the direction of backing coat evaporation, and "
+      },
+      {
+        "title": "Measuring surface topography with scanning electron microscopy. I. EZEImage: a program to obtain 3D surface data.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/17481354/",
+        "year": "2006-04",
+        "abstract": "Scanning electron microscopy (SEM) is widely used in the science of materials and different parameters were developed to characterize the surface roughness. In a previous work, we studied the surface topography with fractal dimension at low scale and two parameters at high scale by using the variogram, that is, variance vs. step log-log graph, of a SEM image. Those studies were carried out with the FERImage program, previously developed by us. To verify the previously accepted hypothesis by work"
+      },
+      {
+        "title": "Correcting for 3D distortion when using backscattered electron detectors in a scanning electron microscope.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/19204999/",
+        "year": "2009-03-01",
+        "abstract": "A variable pressure scanning electron microscope (VPSEM) can produce a topographic surface relief of a physical object under examination, in addition to its two-dimensional (2D) image. This topographic surface relief is especially helpful when dealing with porous rock because it may elucidate the pore-space structure as well as grain shape and size. Whether the image accurately reproduces the physical object depends on the management of the hardware, acquisition, and postprocessing. Two problems"
+      }
+    ]
+  },
+  "surface_granularity": {
+    "query": "Surface Granularity: The degree to which a surface is composed of distinct, fine-scale particulate or granular elements. (scanning electron microscopy)",
+    "papers": [
+      {
+        "title": "Surface topography of granulosa cells accompanied by fragmented oocytes.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/6683198/",
+        "year": "1983-07-15",
+        "abstract": "Scanning electron microscopy of granulosa cells (GC) and granulosa cell-like structures (GCLS) revealed that both had lacy foldings, or plicae, on the surface and were identical. The plicae did not always cover the entire surface of GC or GCLS. Both structures were interconnected by multivalent processes."
+      },
+      {
+        "title": "Surface properties and microporosity of polyhydroxybutyrate under scanning electron microscopy.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/15468813/",
+        "year": "2004-05",
+        "abstract": "This study was designed to investigate the surface properties especially surface porosity of polyhydroxybutyrate (PHB) using scanning electron microscopy. PHB granules were sprinkled on the double-sided sticky tape attached on a SEM aluminium stub and sputtered with gold(10nm thickness) in a Polaron SC515 Coater, following which the samples were placed into the SEM specimen chamber for viewing and recording. Scanning electron micrographs with different magnification of PHB surface revealed multi"
+      },
+      {
+        "title": "Reference sample for the evaluation of SEM image resolution at a high magnification--nanometer-scale Au particles on an HOPG substrate.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/16123061/",
+        "year": "2005-08-01",
+        "abstract": "A new sample preparation technique is proposed for evaluating image resolution in a high magnification range of SEM. The proposed reference samples are uniformly distributed nanometer-scale Au particles on HOPG substrate. The samples are fabricated using the conventional ion sputter coater. The grain size and granularity are controlled by reducing the sputter-induced damage in the top layers of HOPG. The sample heating prior to SEM imaging is essential to suppress beam induced contamination."
+      },
+      {
+        "title": "Measuring surface topography by scanning electron microscopy. II. Analysis of three estimators of surface roughness in second dimension and third dimension.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/17481355/",
+        "year": "2006-04",
+        "abstract": "Scanning electron microscopy (SEM) is widely used in surface studies and continuous efforts are carried out in the search of estimators of different surface characteristics. By using the variogram, we developed two of these estimators that were used to characterize the surface roughness from the SEM image texture. One of the estimators is related to the crossover between fractal region at low scale and the periodic region at high scale, whereas the other estimator characterizes the periodic regi"
+      },
+      {
+        "title": "Scanning electron microscopy of cell surface morphology.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/18228517/",
+        "year": "2007-12",
+        "abstract": "The surface of metazoan cells is a landscape not clearly visualized by light microscopy. Many cells elaborate protrusive structures such as microvilli, filopodia, lamellipodia, and surface ruffles that play important roles in the interaction between the cell and its environment. The high resolution of scanning electron microscopy makes it an ideal technique for studies of the cell surface; however, preservation of fine surface structure can be problematic."
+      }
+    ]
+  },
+  "feature_directionality": {
+    "query": "Feature Directionality: The extent to which features in the image exhibit a clear, dominant, and consistent orientation or flow. (scanning electron microscopy)",
+    "papers": [
+      {
+        "title": "Edge Sharpening for Unbiased Edge Detection in Field Emission Scanning Electron Microscope Images.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/10341013/",
+        "year": "1999-03",
+        "abstract": ": We report here a specific type of edge strength anisotropy observed in field emission scanning electron microscope (FESEM) images. The images show weaker edge gradients in the scanning direction and hence these edges frequently go undetected. Direct application of edge detection algorithms to images with nondistinct edges, such as powder particles, show strong bias to edges perpendicular to the scanning direction. Edge orientation polarograms obtained from these images always show strong ficti"
+      },
+      {
+        "title": "Scale space approach to directional analysis of images.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/20700292/",
+        "year": "1991-04-10",
+        "abstract": "In this paper a new technique for directional analysis of linear patterns in images is proposed based on the notion of scale space. A given image is preprocessed by a sequence of filters which are second derivatives of 2-D Gaussian functions with different scales. This gives a set of zero crossing maps (the scale space) from which a stability map is generated. Significant linear patterns are detected from measurements on the stability map. Information regarding orientation of the linear patterns"
+      },
+      {
+        "title": "Snake Scanning for SEM: Quantification and Correction of Its Inherent Misalignment Distortion Using an External Scan Controller.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41515684/",
+        "year": "2025-12-19",
+        "abstract": "Distortions in scanning electron microscope (SEM) images compromise characterization accuracy and restrict reliable quantitative analysis. Quantifying and correcting these distortions remains challenging due to the complexity of their inherent sources, such as scanning coil hysteresis and electronic circuit response delays. To address this, we independently developed a scanning controller and software system that enables customizable scanning strategies and is crucial for capturing unprocessed r"
+      },
+      {
+        "title": "Orientation contrast of secondary electron images from electropolished metals.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/25980953/",
+        "year": "2015-05-05",
+        "abstract": "Orientation contrast obtained by an in-lens secondary electron detector in a scanning electron microscope from electropolished/etched metals is reported. The imaging conditions for obtaining such orientation contrast are defined. The mechanism responsible for the formation of the orientation contrast is explained, and an application example of this new imaging method is given."
+      },
+      {
+        "title": "Automated quantification of one-dimensional nanostructure alignment on surfaces",
+        "url": "https://arxiv.org/abs/1607.07297",
+        "year": "2016-03-03",
+        "abstract": "A method for automated quantification of the alignment of one-dimensional nanostructures from microscopy imaging is presented. Nanostructure alignment metrics are formulated and shown to able to rigorously quantify the orientational order of nanostructures within a two-dimensional domain (surface). A complementary image processing method is also presented which enables robust processing of microscopy images where overlapping nanostructures might be present. Scanning electron microscopy (SEM) ima"
+      }
+    ]
+  },
+  "feature_shape_uniformity_and_definition": {
+    "query": "Feature Shape Uniformity and Definition: The consistency and distinctness of the two-dimensional shape and proportions of discrete features. (scanning electron microscopy)",
+    "papers": [
+      {
+        "title": "Image sharpness measurement in the scanning electron-microscope--part III.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/10483879/",
+        "year": "1999-07-01",
+        "abstract": "Fully automated or semi-automated scanning electron microscopes (SEM) are now commonly used in semiconductor production and other forms of manufacturing. Testing and proving that the instrument is performing at a satisfactory level of sharpness is an important aspect of quality control. The application of Fourier analysis techniques to the analysis of SEM images is a useful methodology for sharpness measurement. In this paper, a statistical measure known as the multivariate kurtosis is proposed "
+      },
+      {
+        "title": "Simulated SEM images for resolution measurement.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/18613028/",
+        "year": "2008-09-01",
+        "abstract": "Resolution is a key performance metric, which often defines the quality of a scanning electron microscope (SEM). Traditionally, there is the subjective measurement of the distance between two points on special \"resolution\" samples and there are several computer-based resolution-calculation methods. These computer-based resolution-calculation methods are much more precise than direct measurement, but none of them can currently be considered an objective way of measuring the resolution. The method"
+      },
+      {
+        "title": "No-Reference Quality Assessment Method for Blurriness of SEM Micrographs with Multiple Texture.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/31281563/",
+        "year": "2019-06-02",
+        "abstract": "Scanning electron microscopy (SEM) plays an important role in the intuitive understanding of microstructures because it can provide ultrahigh magnification. Tens or hundreds of images are regularly generated and saved during a typical microscopy imaging process. Given the subjectivity of a microscopist's focusing operation, blurriness is an important distortion that debases the quality of micrographs. The selection of high-quality micrographs using subjective methods is expensive and time-consum"
+      },
+      {
+        "title": "Influence of a combination of random noise and pattern-edge width (in pixels) on contrast-to-gradient image resolution in scanning electron microscopy.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/17172265/",
+        "year": "2007-04-26",
+        "abstract": "The contrast-to-gradient (CG) method has been proposed previously for the evaluation of image resolution in scanning electron microscopy (SEM). In the CG algorithm, the image to be evaluated is gradually reduced to form the 1/r-reduced image (r = 1, 2, 3, ...) until the representative features of local patterns are accurately recognizable after the corresponding r-th noise reduction. We have studied the influence of a combination of random noise and pattern-edge width (in pixels) on the CG resol"
+      },
+      {
+        "title": "On Determination Method for Resolution of Secondary Electron Images in Scanning Electron Microscopy.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42178999/",
+        "year": "2026-05-25",
+        "abstract": "A rational scheme for the determination of the resolving power of a scanning electron microscope (SEM) has been a long-standing unresolved scientific issue. The objective measurement of the image resolution according to the ISO terminology definition is always difficult, and different measurement methods used in practice now are all inconsistent with the ISO terminology definition and do not follow the Rayleigh criterion. Here, we establish a sharpness-resolution conversion curve method based on"
+      }
+    ]
+  },
+  "feature_branching_complexity": {
+    "query": "Feature Branching Complexity: The degree to which primary features exhibit secondary or tertiary extensions, creating a tree-like or dendritic structure. (scanning electron microscopy)",
+    "papers": [
+      {
+        "title": "Ordering methods in quantitative analysis of branching structures of dendritic trees.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/1155264/",
+        "year": "1975",
+        "abstract": "Two different ordering methods used in quantitative analysis of dendritic trees are compared with respect to the chief objective of doing the ordering, viz. grouping together those segments of a branching pattern which have similar characteristics. After describing the different properties of these two ordering methods (i.e., Strahler method and centrifugal method), criteria are given for selecting one or the other of the two methods."
+      },
+      {
+        "title": "BranchAnalysis2D/3D automates morphometry analyses of branching structures.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/29061345/",
+        "year": "2017-10-20",
+        "abstract": "BACKGROUND: Morphometric analyses of biological features have become increasingly common in recent years with such analyses being subject to a large degree of observer bias, variability, and time consumption. While commercial software packages exist to perform these analyses, they are expensive, require extensive user training, and are usually dependent on the observer tracing the morphology. NEW METHOD: To address these issues, we have developed a broadly applicable, no-cost ImageJ plugin we ca"
+      },
+      {
+        "title": "Application of network analysis to the study of the branching patterns of dendritic fields.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/1155258/",
+        "year": "1975",
+        "abstract": "The technique of network analysis has been used to define the connectivity and growth of networks generated by monochotomous, dichotomous, and trichotomous branching. The number of distinct topologic branching patterns exhibited by networks with a given number of pendant arcs is defined mathematically; when all types are represented, a complete pendant arc series is formed. The frequency of occurrence of topologic types in these series is unique for a given hypothesis of growth. The growth of th"
+      },
+      {
+        "title": "Complexity of branching dendritic trees: dependence on number of trees per cell and effects of branch loss during sectioning.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/342471/",
+        "year": "1977-12",
+        "abstract": "We have investigated whether the complexity of dendritic trees is correlated with the number of primary dendrites per neuron (trees per cell). In estimating the average number of branches of centrifugal orders 1-5 per tree we used statistical methods to compensate for loss of parts of trees during sectioning. Limitations of these methods are discussed. Neurons from four populations, stained by the Golgi-Cox method, were examined: stellate cells from layer IV, area 17 of visual cortex, in normal "
+      },
+      {
+        "title": "Scanning electron microscopic observation of mouse embryonic submandibular glands during initial branching: preferential localization of fibrillar structures at the mesenchymal ridges participating in cleft formation.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/3027232/",
+        "year": "1986-07",
+        "abstract": "Branching submandibular glands of 12-day mouse embryos and those cultured in the presence and absence of a collagenase inhibitor from the culture medium of bovine dental pulp or a Clostridial collagenase were examined with the scanning electron microscope. Fracturing of fixed and dried glands with the tip of a fine needle succeeded in exposing the surfaces of the lobules and of their mesenchymal replicas at different stages of branching. At the beginning of branching, corresponding parts of the "
+      }
+    ]
+  },
+  "feature_interconnection_density": {
+    "query": "Feature Interconnection Density: The extent to which individual fibrous or elongated features are physically linked or interwoven to form a continuous network. (scanning electron microscopy)",
+    "papers": [
+      {
+        "title": "Characterization of the complete fiber network topology of planar fibrous tissues and scaffolds.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/20398930/",
+        "year": "2010-04-15",
+        "abstract": "Understanding how engineered tissue scaffold architecture affects cell morphology, metabolism, phenotypic expression, as well as predicting material mechanical behavior has recently received increased attention. In the present study, an image-based analysis approach that provides an automated tool to characterize engineered tissue fiber network topology is presented. Micro-architectural features that fully defined fiber network topology were detected and quantified, which include fiber orientati"
+      },
+      {
+        "title": "Automated Multi-Scale Morphometry Analysis of Fibrous Networks.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41939325/",
+        "year": "2026-03-20",
+        "abstract": "Fibrous materials are ubiquitous in modern technology and essential to diverse industrial applications spanning medicine, energy storage, advanced textiles, and structural composites. Quantitative morphometric analysis of these fibrous structures from microscopy images, however, remains challenging due to the complexity of discriminating the elongated and intertwined fibers, particularly in heterogeneous materials with varying fiber diameters and particulate matter. Traditional image analysis me"
+      },
+      {
+        "title": "New Method for a SEM-Based Characterization of Helical-Fiber Nonwovens.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/36015627/",
+        "year": "2022-08-18",
+        "abstract": "The lack of tools particularly designed for the quantification of the fiber morphology in nonwovens, especially the multi-level structured fibers, is the main reason for the limited research studies on the establishment of realistic nonwoven structure. In this study, two polymers, cellulose acetate (CA) and thermoplastic polyurethane (TPU), which have different molecular flexibility, were chosen to produce nonwovens with helical nanofibers. Focusing on the nonwovens with helical fibers, a soft p"
+      },
+      {
+        "title": "A systematic review and comparison of automated tools for quantification of fibrous networks.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/36509400/",
+        "year": "2022-12-10",
+        "abstract": "Fibrous networks are essential structural components of biological and engineered materials. Accordingly, many approaches have been developed to quantify their structural properties, which define their material properties. However, a comprehensive overview and comparison of methods is lacking. Therefore, we systematically searched for automated tools quantifying network characteristics in confocal, stimulated emission depletion (STED) or scanning electron microscopy (SEM) images and compared the"
+      },
+      {
+        "title": "A systematic review and comparison of automated tools for quantification of fibrous networks",
+        "url": "https://doi.org/10.1101/2022.09.08.507154",
+        "year": "2022-09-10",
+        "abstract": "Fibrous networks are essential structural components of biological and engineered materials. Accordingly, many approaches have been developed to quantify their structural properties, which define their material properties. However, a comprehensive overview and comparison of methods is lacking. Therefore, we systematically searched for automated tools quantifying network characteristics in confocal, stimulated emission depletion (STED) or scanning electron microscopy (SEM) images and compared the"
+      }
+    ]
+  },
+  "image_sharpness": {
+    "query": "Image Sharpness: The overall degree to which features in the micrograph are well-defined and in clear focus. (scanning electron microscopy)",
+    "papers": [
+      {
+        "title": "Evaluating sharpness functions for automated scanning electron microscopy.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/21050212/",
+        "year": "2010-10",
+        "abstract": "Fast and reliable autofocus techniques are an important topic for automated scanning electron microscopy. In this paper, different autofocus techniques are discussed and applied to a variety of experimental through-focus series of scanning electron microscopy images with different geometries. The procedure of quality evaluation is described, and for a variety of scanning electron microscope samples it is demonstrated that techniques based on image derivatives and Fourier transforms are in genera"
+      },
+      {
+        "title": "Image sharpness measurement in the scanning electron-microscope--part III.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/10483879/",
+        "year": "1999-07-01",
+        "abstract": "Fully automated or semi-automated scanning electron microscopes (SEM) are now commonly used in semiconductor production and other forms of manufacturing. Testing and proving that the instrument is performing at a satisfactory level of sharpness is an important aspect of quality control. The application of Fourier analysis techniques to the analysis of SEM images is a useful methodology for sharpness measurement. In this paper, a statistical measure known as the multivariate kurtosis is proposed "
+      },
+      {
+        "title": "No-Reference Quality Assessment Method for Blurriness of SEM Micrographs with Multiple Texture.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/31281563/",
+        "year": "2019-06-02",
+        "abstract": "Scanning electron microscopy (SEM) plays an important role in the intuitive understanding of microstructures because it can provide ultrahigh magnification. Tens or hundreds of images are regularly generated and saved during a typical microscopy imaging process. Given the subjectivity of a microscopist's focusing operation, blurriness is an important distortion that debases the quality of micrographs. The selection of high-quality micrographs using subjective methods is expensive and time-consum"
+      },
+      {
+        "title": "Evaluation of both image resolution and contrast-to-noise ratio in scanning electron microscopy.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/17977979/",
+        "year": "2007-08",
+        "abstract": "The contrast-to-gradient (CG) resolution has been defined as a weighted harmonic mean of the local resolution, i.e. the length defining the object's local fine structure at each pixel position. The newly defined resolution Res is defined as 2 sigma/ sqrt 2, where 2 sigma is a sharpness factor of the image pattern obtained by the conversion 2 sigma = ARCG + B using default constants A and B. In the present study, we have extended the algorithm to change the constants from default values to calibr"
+      },
+      {
+        "title": "Contrast-to-gradient method for the evaluation of image resolution in scanning electron microscopy.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/12630780/",
+        "year": "2002",
+        "abstract": "In a previous study, we proposed the contrast-to-gradient (CG) method for evaluating image resolution. Here, the CG resolution is defined as a weighted harmonic mean of the local resolution, which is proportional to the quotient of the threshold contrast divided by the local gradient. The local gradient is calculated from the quadratic function that best fits the local pixel intensities over the region of interest (ROI) of 3 x 3 or 5 x 5 pixels in size. To refine the CG method, some modification"
+      }
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+concept_id,name,probe_r2,raw_std
+feature_elongation,Feature Elongation,0.7109551422066128,2.0293453
+linear_feature_parallelism,Linear Feature Parallelism,0.7048666097802248,1.9286445
+fiber_alignment,Fiber Alignment,0.6945776820257565,1.7477185
+feature_relief_height,Feature Relief Height,0.6609809577805263,1.2305267
+feature_interpenetration,Feature Interpenetration,0.6336931552286624,1.8640615
+feature_overlap,Feature Overlap,0.6219402482157866,1.7893767
+surface_granularity,Surface Granularity,0.6137703908302223,1.5821753
+surface_irregularity_and_texture,Surface Irregularity and Texture,0.6118674697388252,1.3554227
+feature_directionality,Feature Directionality,0.6084356244578617,1.8125966
+feature_occupancy_density,Feature Occupancy Density,0.5975923105259988,1.4239317
+substrate_particle_coverage,Substrate Particle Coverage,0.5954878408884745,1.9510136
+feature_prominence_and_slenderness,Feature Prominence and Slenderness,0.5930928190850983,1.2866199
+feature_volume_fraction,Feature Volume Fraction,0.5871513768268988,1.4454058
+substrate_exposure,Substrate Exposure,0.573492436754778,2.0826976
+feature_aspect_ratio,Feature Aspect Ratio,0.5716947682562652,1.4836441
+particle_aggregation,Particle Aggregation,0.565161799271511,1.8347416
+feature_interconnection_density,Feature Interconnection Density,0.5601499829174611,1.8656489
+spatial_pattern_uniformity_and_periodicity,Spatial Pattern Uniformity and Periodicity,0.5575387295277032,1.5867927
+surface_texture_fineness,Surface Texture Fineness,0.5451261277905917,1.4680651
+surface_planarity,Surface Planarity,0.5417314451346931,1.5392065
+feature_orientation_cohesion,Feature Orientation Cohesion,0.5397253836104788,1.8234107
+feature_smoothness,Feature Smoothness,0.518679866917263,1.2591133
+feature_connectivity,Feature Connectivity,0.5135796529705261,1.7116793
+surface_texture,Surface Texture,0.506500738862192,1.2795676
+sidewall_verticality,Sidewall Verticality,0.49860230651307125,1.6495682
+feature_size_disparity,Feature Size Disparity,0.4912703672701926,1.2003005
+feature_shape_uniformity_and_definition,Feature Shape Uniformity and Definition,0.4471142749114848,1.0870384
+feature_surface_texture,Feature Surface Texture,0.44183172096593004,1.1870028
+feature_tip_morphology,Feature Tip Morphology,0.4386593846793677,1.5974803
+discrete_particle_density,Discrete Particle Density,0.3868684647352123,1.8385335
+feature_aspect_ratio_homogeneity,Feature Aspect Ratio Homogeneity,0.3816031338070909,1.3639627
+feature_branching_complexity,Feature Branching Complexity,0.3807189069117728,1.3001337
+feature_edge_curvature_uniformity,Feature Edge Curvature Uniformity,0.3669339396583189,1.057785
+feature_material_loss,Feature Material Loss,0.366603303012641,1.2737727
+feature_cross_sectional_uniformity,Feature Cross-Sectional Uniformity,0.36238524107194525,1.3396077
+feature_form_uniformity,Feature Form Uniformity,0.35706919052386743,1.2631083
+pore_shape_uniformity,Pore Shape Uniformity,0.3525171613205459,1.4520681
+surface_relief_texturing,Surface Relief Texturing,0.344704345376427,1.6810567
+particle_size_homogeneity,Particle Size Homogeneity,0.33805397244383906,1.564576
+feature_termination_sharpness,Feature Termination Sharpness,0.32759525042767446,1.4673405
+feature_dimensionality,Feature Dimensionality,0.31404031332450055,1.3216022
+feature_taper,Feature Taper,0.2930613219633156,1.1720856
+feature_interstitial_space,Feature Interstitial Space,0.2691610910694552,1.3219718
+surface_protrusions,Surface Protrusions,0.1818436237888924,1.0978727
+feature_angularity_curvature,Feature Angularity/Curvature,0.17992586811738775,1.2922871
+layer_interface_definition,Layer Interface Definition,0.0828528649400343,0.92944103

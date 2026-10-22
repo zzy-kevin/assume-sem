@@ -1,0 +1,25 @@
+# Python 3.10. Versions are the ones the results were produced with.
+numpy==2.2.6
+pandas==2.3.3
+pyarrow==25.0.1
+scipy==1.15.3
+scikit-learn==1.7.2
+umap-learn==0.5.12
+matplotlib==3.10.9
+pillow==12.2.0
+httpx==0.28.1
+requests==2.34.2
+tqdm==4.69.0
+
+# DINOv3 embedding (only needed to re-embed micrographs; install the CUDA build of torch for your GPU)
+torch==2.12.1
+torchvision==0.27.1
+transformers==5.13.0
+
+# Demo app, animations, flowchart
+streamlit==1.65.0
+plotly==7.1.0
+imageio==2.37.4
+opencv-python==5.0.0.93
+python-pptx==1.0.2
+lxml==6.1.3

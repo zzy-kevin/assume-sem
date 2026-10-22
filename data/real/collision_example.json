@@ -1,0 +1,23 @@
+{
+ "pair": [
+  1015,
+  1052
+ ],
+ "paths": [
+  "D:\\UOFT\\Grad1_local\\SEM\\online\\t2v4p-2x965\\Patterned_surface\\L1_541266a449a3dbd8dccb7cee2965f14c.jpg",
+  "D:\\UOFT\\Grad1_local\\SEM\\online\\t2v4p-2x965\\Patterned_surface\\L1_b25a08781648ca4b1083cbfc3ad3ede2.jpg"
+ ],
+ "model": "gemini-2.5-flash",
+ "proposed": [
+  {
+   "concept_id": "feature_intricacy",
+   "name": "Feature Intricacy",
+   "definition": "This concept quantifies the level of detailed internal structure, complex geometry, or fine substructures present within individual repeating features.",
+   "scale_0": "Concept or structure is absent / not applicable to this micrograph",
+   "scale_1": "Individual features are simple, solid blocks or basic geometric shapes with minimal internal detail or substructure.",
+   "scale_3": "Individual features exhibit some internal complexity, such as slight indentations, simple internal patterns, or moderately varied contours.",
+   "scale_5": "Individual features possess highly complex, elaborate, or finely detailed internal geometries, intricate substructures, or convoluted shapes.",
+   "scale_10": "Individual features possess highly complex, elaborate, or finely detailed internal geometries, intricate substructures, or convoluted shapes."
+  }
+ ]
+}

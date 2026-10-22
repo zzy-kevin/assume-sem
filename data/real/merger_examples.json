@@ -1,0 +1,147 @@
+[
+ {
+  "concept_a": {
+   "name": "Feature Form Uniformity",
+   "definition": "The degree to which individual features exhibit consistent shape, surface morphology, and adherence to a regular, uniform form across the micrograph."
+  },
+  "concept_b": {
+   "name": "Feature Cross-Sectional Uniformity",
+   "definition": "The degree to which the cross-sectional shape of individual features remains consistent along their length or across multiple instances."
+  },
+  "r": 0.917,
+  "images": [
+   "D:\\UOFT\\Grad1_local\\SEM\\online\\t2v4p-2x965\\Porous_Sponge\\L0_b325895e844b55d6c1766b4032f308a6.jpg",
+   "D:\\UOFT\\Grad1_local\\SEM\\online\\t2v4p-2x965\\Patterned_surface\\L1_daa8a60921c7ce77e1864af32683dcae.jpg",
+   "D:\\UOFT\\Grad1_local\\SEM\\online\\t2v4p-2x965\\Patterned_surface\\L1_eae44bc9611c9c28dacff8afe9f03852.jpg"
+  ],
+  "action": "MERGE",
+  "decision": "MERGE",
+  "rationale": "Both concepts describe the consistency of feature geometry and appearance. 'Cross-sectional uniformity' is a specific aspect of 'form uniformity', and in 2D SEM, distinguishing between overall form and its cross-section often becomes ambiguous or redundant, as the observed 2D projection heavily influences both interpretations.",
+  "merged_rubric": {
+   "concept_id": "feature_geometric_uniformity",
+   "name": "Feature Geometric Uniformity",
+   "definition": "The degree to which individual features exhibit consistent and regular geometric shape, dimensions, and surface morphology across the micrograph.",
+   "scale_0": "Concept or structure is absent / not applicable to this micrograph",
+   "scale_1": "Features are highly irregular in shape, exhibit significant variations in dimensions or surface texture, and lack a consistent, uniform geometry.",
+   "scale_3": "Features generally adhere to a recognizable and consistent geometric form, but show minor variations, imperfections, or deviations in shape, dimensions, or surface texture.",
+   "scale_5": "Features are highly uniform, precisely defined, and consistently match an ideal, regular geometric form with minimal or no observable deviations in shape, dimensions, or surface morphology.",
+   "scale_10": "Features are highly uniform, precisely defined, and consistently match an ideal, regular geometric form with minimal or no observable deviations in shape, dimensions, or surface morphology."
+  }
+ },
+ {
+  "concept_a": {
+   "name": "Surface Irregularity and Texture",
+   "definition": "The degree of texture, irregularity, and non-smoothness present on visible surfaces or along the boundaries of distinct features."
+  },
+  "concept_b": {
+   "name": "Surface Texture",
+   "definition": "The presence and prominence of fine-scale patterns, striations, or irregularities on the surface of individual features."
+  },
+  "r": 0.912,
+  "images": [
+   "D:\\UOFT\\Grad1_local\\SEM\\online\\t2v4p-2x965\\Powder\\L4_7d002a6e77fae2906116ec7b68fe59b0.jpg",
+   "D:\\UOFT\\Grad1_local\\SEM\\online\\t2v4p-2x965\\Powder\\L4_c5fba9e85128405f1722c933d190e821.jpg",
+   "D:\\UOFT\\Grad1_local\\SEM\\online\\t2v4p-2x965\\Powder\\L4_3d0147ae610350d051d6278a9c2f6ab6.jpg"
+  ],
+  "action": "MERGE",
+  "decision": "MERGE",
+  "rationale": "Both concepts describe the visual manifestation of surface roughness and fine-scale features, with Concept A being a broader term that encompasses the more specific 'surface texture' described in Concept B. The micrographs clearly show that the 'irregularity' and 'texture' are intrinsically linked and difficult to distinguish as separate phenomena.",
+  "merged_rubric": {
+   "concept_id": "surface_topography_and_texture",
+   "name": "Surface Topography and Texture",
+   "definition": "The degree of fine-scale patterns, irregularities, and overall non-smoothness present on visible surfaces and feature boundaries.",
+   "scale_0": "Concept or structure is absent / not applicable to this micrograph",
+   "scale_1": "Surfaces and feature edges are predominantly smooth and uniform, with only very subtle or localized fine texture or minor irregularities.",
+   "scale_3": "Surfaces or feature edges exhibit a moderate amount of discernible texture, such as fine striations, gentle undulations, or minor bumps and grooves.",
+   "scale_5": "Surfaces or feature edges are highly irregular and textured, dominated by prominent fine-scale patterns, distinct irregularities, or complex, pronounced topography.",
+   "scale_10": "Surfaces or feature edges are highly irregular and textured, dominated by prominent fine-scale patterns, distinct irregularities, or complex, pronounced topography."
+  }
+ },
+ {
+  "concept_a": {
+   "name": "Feature Directionality",
+   "definition": "The extent to which features in the image exhibit a clear, dominant, and consistent orientation or flow."
+  },
+  "concept_b": {
+   "name": "Linear Feature Parallelism",
+   "definition": "The extent to which linear features within the image are aligned parallel to each other."
+  },
+  "r": 0.884,
+  "images": [
+   "D:\\UOFT\\Grad1_local\\SEM\\online\\t2v4p-2x965\\Patterned_surface\\L1_40bf859af52868dedd0410bc717a02e7.jpg",
+   "D:\\UOFT\\Grad1_local\\SEM\\online\\t2v4p-2x965\\Nanowires\\L6_b9f67cb3c2722e6d5a992563329ae5b2.jpg",
+   "D:\\UOFT\\Grad1_local\\SEM\\online\\t2v4p-2x965\\Patterned_surface\\L1_5f13c61c9e50fe0ff2a1ecf5a38cca3a.jpg"
+  ],
+  "action": "MERGE",
+  "decision": "MERGE",
+  "rationale": "The concepts of 'Feature Directionality' and 'Linear Feature Parallelism' are highly collinear because parallel alignment of linear features is a primary manifestation of strong feature directionality in SEM images. The broader concept of 'Feature Directionality' can encompass the specific case of linear parallelism, making a unified rubric more atomic and less redundant.",
+  "merged_rubric": {
+   "concept_id": "feature_alignment_and_directionality",
+   "name": "Feature Alignment and Directionality",
+   "definition": "The extent to which features in the image exhibit a clear, dominant, and consistent orientation, often appearing aligned or parallel.",
+   "scale_0": "Concept or structure is absent / not applicable to this micrograph",
+   "scale_1": "Features show a very weak or inconsistent preferred orientation, appearing mostly isotropic or randomly aligned, with little to no parallel arrangement.",
+   "scale_3": "Features exhibit a moderate tendency towards a specific direction, with some local variations or less pronounced alignment, and a clear but imperfect parallel arrangement.",
+   "scale_5": "Features are overwhelmingly aligned along one or more distinct, consistent directions, creating a strong sense of flow or pattern, often dominated by highly consistent parallel alignment.",
+   "scale_10": "Features are overwhelmingly aligned along one or more distinct, consistent directions, creating a strong sense of flow or pattern, often dominated by highly consistent parallel alignment."
+  }
+ },
+ {
+  "concept_a": {
+   "name": "Substrate Particle Coverage",
+   "definition": "The extent to which the underlying substrate surface is covered by discrete particles or granular material."
+  },
+  "concept_b": {
+   "name": "Surface Granularity",
+   "definition": "The degree to which a surface is composed of distinct, fine-scale particulate or granular elements."
+  },
+  "r": 0.836,
+  "images": [
+   "D:\\UOFT\\Grad1_local\\SEM\\online\\t2v4p-2x965\\Powder\\L4_2c66cd2f0f417319b8dcc1e533537e5c.jpg",
+   "D:\\UOFT\\Grad1_local\\SEM\\online\\t2v4p-2x965\\Powder\\L4_64359f293ad21868f9c731f3ce6d3316.jpg",
+   "D:\\UOFT\\Grad1_local\\SEM\\online\\t2v4p-2x965\\Powder\\L4_c5fba9e85128405f1722c933d190e821.jpg"
+  ],
+  "action": "MERGE",
+  "decision": "MERGE",
+  "rationale": "Both concepts describe the visual manifestation of a surface being composed of discrete, granular elements. 'Substrate Particle Coverage' focuses on the extent of coverage, while 'Surface Granularity' focuses on the distinctness and prevalence of these granular elements. In SEM, a surface that is extensively covered by particles (high coverage) will inherently appear highly granular, and vice-versa, making them empirically and semantically inseparable.",
+  "merged_rubric": {
+   "concept_id": "surface_granular_coverage",
+   "name": "Surface Granular Coverage",
+   "definition": "The extent to which the surface is covered by and composed of distinct, fine-scale particulate or granular elements.",
+   "scale_0": "Concept or structure is absent / not applicable to this micrograph",
+   "scale_1": "The surface exhibits minimal coverage by indistinct granular elements, appearing largely smooth or with very sparse, isolated particles.",
+   "scale_3": "The surface shows moderate coverage by distinct granular elements, forming a noticeable but not fully continuous texture, with some underlying features potentially visible.",
+   "scale_5": "The surface is densely and extensively covered by highly distinct, individual granular elements, forming a continuous and dominant granular texture.",
+   "scale_10": "The surface is densely and extensively covered by highly distinct, individual granular elements, forming a continuous and dominant granular texture."
+  }
+ },
+ {
+  "concept_a": {
+   "name": "Feature Occupancy Density",
+   "definition": "The extent to which distinct structural elements or particles fill the available image area, reflecting both their concentration and the proportion of space they occupy."
+  },
+  "concept_b": {
+   "name": "Feature Volume Fraction",
+   "definition": "The proportion of the image area occupied by distinct, high-contrast features relative to the background or matrix."
+  },
+  "r": 0.831,
+  "images": [
+   "D:\\UOFT\\Grad1_local\\SEM\\online\\t2v4p-2x965\\Powder\\L4_960ac6139b6d7a4203e66abaa8708073.jpg",
+   "D:\\UOFT\\Grad1_local\\SEM\\online\\t2v4p-2x965\\Films_Coated_Surface\\L3_3ec2432388fe19ac6fbf3bdb293f897e.jpg",
+   "D:\\UOFT\\Grad1_local\\SEM\\online\\t2v4p-2x965\\Powder\\L4_d97f0449be2328e89ab396b7741c36ed.jpg"
+  ],
+  "action": "MERGE",
+  "decision": "MERGE",
+  "rationale": "Both concepts quantify the proportion of the image area covered by distinct features. 'Occupancy density' implicitly describes the same visual characteristic as 'volume fraction' in a 2D SEM context, making them semantically redundant and prone to collinearity.",
+  "merged_rubric": {
+   "concept_id": "feature_area_fraction",
+   "name": "Feature Area Fraction",
+   "definition": "The proportion of the image area occupied by distinct features, relative to the total area.",
+   "scale_0": "Concept or structure is absent / not applicable to this micrograph",
+   "scale_1": "Features are sparse, occupying a very small fraction of the image area with significant empty space between them.",
+   "scale_3": "Features occupy a moderate fraction of the image area, with noticeable background or interstitial regions.",
+   "scale_5": "Features are highly dense and dominant, occupying a very large fraction of the image area, with minimal to no background visible.",
+   "scale_10": "Features are highly dense and dominant, occupying a very large fraction of the image area, with minimal to no background visible."
+  }
+ }
+]

@@ -1,0 +1,102 @@
+[
+ {
+  "concept_id": "spatial_pattern_uniformity_and_periodicity",
+  "name": "Spatial Pattern Uniformity and Periodicity",
+  "definition": "The degree to which structural elements are arranged in a consistent, predictable, and repeating spatial pattern with uniform spacing and alignment."
+ },
+ {
+  "concept_id": "feature_elongation",
+  "name": "Feature Elongation",
+  "definition": "The degree to which individual structural elements or particles are stretched or extended in one primary dimension, appearing needle-like, rod-like, or fibrous."
+ },
+ {
+  "concept_id": "feature_occupancy_density",
+  "name": "Feature Occupancy Density",
+  "definition": "The extent to which distinct structural elements or particles fill the available image area, reflecting both their concentration and the proportion of space they occupy."
+ },
+ {
+  "concept_id": "surface_irregularity_and_texture",
+  "name": "Surface Irregularity and Texture",
+  "definition": "The degree of texture, irregularity, and non-smoothness present on visible surfaces or along the boundaries of distinct features."
+ },
+ {
+  "concept_id": "collinear_fiber_orientation_dup",
+  "name": "Collinear Fiber Alignment Duplicate",
+  "definition": "Redundant parallel alignment measure of elongated fibers."
+ },
+ {
+  "concept_id": "particle_aggregation",
+  "name": "Particle Aggregation",
+  "definition": "The extent to which individual particles or primary structural units are clustered or fused together to form larger, composite structures."
+ },
+ {
+  "concept_id": "fiber_alignment",
+  "name": "Fiber Alignment",
+  "definition": "The degree to which elongated fibrous structures are oriented parallel to each other within the image plane."
+ },
+ {
+  "concept_id": "surface_texture",
+  "name": "Surface Texture",
+  "definition": "The presence and prominence of fine-scale patterns, striations, or irregularities on the surface of individual features."
+ },
+ {
+  "concept_id": "feature_isolation",
+  "name": "Feature Isolation",
+  "definition": "The degree to which individual features or structures appear distinct and separated from other features or the background."
+ },
+ {
+  "concept_id": "shadow_sharpness",
+  "name": "Shadow Sharpness",
+  "definition": "This concept measures the degree of distinctness and crispness of shadow boundaries present in the image."
+ },
+ {
+  "concept_id": "sidewall_verticality",
+  "name": "Sidewall Verticality",
+  "definition": "This concept quantifies how close to perfectly perpendicular to the substrate the sidewalls of etched or grown features are."
+ },
+ {
+  "concept_id": "layer_interface_definition",
+  "name": "Layer Interface Definition",
+  "definition": "This concept measures the clarity and abruptness of the boundaries between distinct material layers or regions."
+ },
+ {
+  "concept_id": "particle_size_homogeneity",
+  "name": "Particle Size Homogeneity",
+  "definition": "This concept quantifies the uniformity in the size of individual particles or discrete features present in the image."
+ },
+ {
+  "concept_id": "feature_angularity_curvature",
+  "name": "Feature Angularity/Curvature",
+  "definition": "The degree to which dominant features are characterized by sharp angles and straight lines versus smooth, continuous curves."
+ },
+ {
+  "concept_id": "surface_protrusions",
+  "name": "Surface Protrusions",
+  "definition": "The extent to which the surface of a primary feature is covered by numerous small, pointed, or rod-like outgrowths."
+ },
+ {
+  "concept_id": "feature_connectivity",
+  "name": "Feature Connectivity",
+  "definition": "The extent to which discrete features are physically linked or merged to form a continuous network or larger structure."
+ },
+ {
+  "concept_id": "feature_prominence_and_slenderness",
+  "name": "Feature Prominence and Slenderness",
+  "definition": "This concept quantifies the degree to which features protrude or recede from the surface, and their relative slenderness or uprightness."
+ },
+ {
+  "concept_id": "pore_shape_uniformity",
+  "name": "Pore Shape Uniformity",
+  "definition": "This concept quantifies the consistency of the two-dimensional shape of individual pores within a porous structure."
+ },
+ {
+  "concept_id": "feature_orientation_cohesion",
+  "name": "Feature Orientation Cohesion",
+  "definition": "This concept measures the degree to which elongated features maintain a consistent directional alignment across the image."
+ },
+ {
+  "concept_id": "feature_edge_clarity",
+  "name": "Feature Edge Clarity",
+  "definition": "This concept quantifies the visual distinctness and abruptness of boundaries between features and their surrounding material or background."
+ }
+]

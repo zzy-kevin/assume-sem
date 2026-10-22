@@ -1,0 +1,102 @@
+[
+ {
+  "concept_id": "substrate_exposure",
+  "name": "Substrate Exposure",
+  "definition": "This concept measures the proportion of the underlying substrate surface that is visible and uncovered by deposited features or structures."
+ },
+ {
+  "concept_id": "surface_planarity",
+  "name": "Surface Planarity",
+  "definition": "This concept measures the degree to which a surface is flat and free from undulations, curvature, or significant topographic variations."
+ },
+ {
+  "concept_id": "feature_aspect_ratio",
+  "name": "Feature Aspect Ratio",
+  "definition": "The ratio of the dominant vertical dimension (height) to the dominant horizontal dimension (width or diameter) of individual structural features."
+ },
+ {
+  "concept_id": "feature_taper",
+  "name": "Feature Taper",
+  "definition": "The degree to which the width of a feature changes along its vertical axis, from base to top."
+ },
+ {
+  "concept_id": "feature_form_uniformity",
+  "name": "Feature Form Uniformity",
+  "definition": "The degree to which individual features exhibit consistent shape, surface morphology, and adherence to a regular, uniform form across the micrograph."
+ },
+ {
+  "concept_id": "feature_dimensionality",
+  "name": "Feature Dimensionality",
+  "definition": "This concept quantifies the apparent dimensionality of the primary structural elements, ranging from point-like (0D) to linear (1D), planar (2D), or volumetric (3D) features."
+ },
+ {
+  "concept_id": "feature_interpenetration",
+  "name": "Feature Interpenetration",
+  "definition": "This concept measures the degree to which distinct features or phases are intertwined and occupy the same spatial regions, rather than existing as separate, discrete entities."
+ },
+ {
+  "concept_id": "feature_brightness_contrast",
+  "name": "Feature Brightness Contrast",
+  "definition": "This concept quantifies the difference in brightness (intensity) between the features and the surrounding background in the SEM image."
+ },
+ {
+  "concept_id": "feature_surface_texture",
+  "name": "Feature Surface Texture",
+  "definition": "The presence and prominence of fine-scale patterns, irregularities, or striations on the visible surfaces of features."
+ },
+ {
+  "concept_id": "feature_cross_sectional_uniformity",
+  "name": "Feature Cross-Sectional Uniformity",
+  "definition": "The degree to which the cross-sectional shape of individual features remains consistent along their length or across multiple instances."
+ },
+ {
+  "concept_id": "feature_tip_morphology",
+  "name": "Feature Tip Morphology",
+  "definition": "The characteristic shape and sharpness of the terminal ends of elongated or protruding features."
+ },
+ {
+  "concept_id": "substrate_particle_coverage",
+  "name": "Substrate Particle Coverage",
+  "definition": "The extent to which the underlying substrate surface is covered by discrete particles or granular material."
+ },
+ {
+  "concept_id": "image_focus_uniformity",
+  "name": "Image Focus Uniformity",
+  "definition": "The consistency of sharpness and clarity across the visible depth or plane of the micrograph."
+ },
+ {
+  "concept_id": "feature_relief_height",
+  "name": "Feature Relief Height",
+  "definition": "The perceived vertical height or protrusion of features from the substrate or surrounding surface."
+ },
+ {
+  "concept_id": "surface_granularity",
+  "name": "Surface Granularity",
+  "definition": "The degree to which a surface is composed of distinct, fine-scale particulate or granular elements."
+ },
+ {
+  "concept_id": "feature_directionality",
+  "name": "Feature Directionality",
+  "definition": "The extent to which features in the image exhibit a clear, dominant, and consistent orientation or flow."
+ },
+ {
+  "concept_id": "feature_shape_uniformity_and_definition",
+  "name": "Feature Shape Uniformity and Definition",
+  "definition": "The consistency and distinctness of the two-dimensional shape and proportions of discrete features."
+ },
+ {
+  "concept_id": "feature_branching_complexity",
+  "name": "Feature Branching Complexity",
+  "definition": "The degree to which primary features exhibit secondary or tertiary extensions, creating a tree-like or dendritic structure."
+ },
+ {
+  "concept_id": "feature_interconnection_density",
+  "name": "Feature Interconnection Density",
+  "definition": "The extent to which individual fibrous or elongated features are physically linked or interwoven to form a continuous network."
+ },
+ {
+  "concept_id": "image_sharpness",
+  "name": "Image Sharpness",
+  "definition": "The overall degree to which features in the micrograph are well-defined and in clear focus."
+ }
+]

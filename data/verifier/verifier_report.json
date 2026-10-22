@@ -1,0 +1,970 @@
+[
+  {
+    "name": "Spatial Pattern Uniformity and Periodicity",
+    "concept_id": "spatial_pattern_uniformity_and_periodicity",
+    "action": "KEEP",
+    "category": "specimen_morphology",
+    "rationale": "Spatial pattern uniformity and periodicity describe intrinsic architectural arrangements of material surface micro- and nanostructures, such as regular ordering, randomness, or periodic assemblies as analyzed in SEM imagery (P1, P4).",
+    "references": [
+      {
+        "title": "Measuring the randomness of micro- and nanostructure spatial distributions: Effects of scanning electron microscope image processing and analysis.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/36206502/"
+      },
+      {
+        "title": "Investigation of hidden periodic structures on SEM images of opal-like materials using FFT and IFFT.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/24752811/"
+      }
+    ]
+  },
+  {
+    "name": "Feature Elongation",
+    "concept_id": "feature_elongation",
+    "action": "KEEP",
+    "category": "specimen_morphology",
+    "rationale": "Feature elongation describes the physical aspect ratio and shape of particles, fibrils, or structural elements in a material, which is a key morphological property measured in electron microscopy (P1, P3).",
+    "references": [
+      {
+        "title": "The presence of fine elastin fibrils within the elastin fibre observed by scanning electron microscopy.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/838618/"
+      },
+      {
+        "title": "The use of shadow-casting technique for measurement of the width of elongated particles.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/13939628/"
+      }
+    ]
+  },
+  {
+    "name": "Feature Occupancy Density",
+    "concept_id": "feature_occupancy_density",
+    "action": "KEEP",
+    "category": "specimen_morphology",
+    "rationale": "Feature occupancy density corresponds to stereological metrics such as volume fraction, area fraction, and number density of microstructural features in the specimen, which are standard morphological measurements in SEM analysis as discussed in P1 and P2.",
+    "references": [
+      {
+        "title": "Stereological analysis in scanning electron microscopy.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/491978/"
+      },
+      {
+        "title": "Efficient estimation of number density in opaque material microstructures: the large-area disector.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/11106967/"
+      }
+    ]
+  },
+  {
+    "name": "Surface Irregularity and Texture",
+    "concept_id": "surface_irregularity_and_texture",
+    "action": "KEEP",
+    "category": "specimen_morphology",
+    "rationale": "Surface irregularity and texture describes intrinsic topographical features and microroughness of the specimen's material surface, which are routinely evaluated using SEM as documented in P1, P2, and P3.",
+    "references": [
+      {
+        "title": "Measurements of the surface microroughness with the scanning electron microscope.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/19196407/"
+      },
+      {
+        "title": "Measuring surface topography by scanning electron microscopy. II. Analysis of three estimators of surface roughness in second dimension and third dimension.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/17481355/"
+      },
+      {
+        "title": "Evaluating scanning electron microscopy for the measurement of small-scale topography.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/39896093/"
+      }
+    ]
+  },
+  {
+    "name": "Particle Aggregation",
+    "concept_id": "particle_aggregation",
+    "action": "KEEP",
+    "category": "specimen_morphology",
+    "rationale": "Particle aggregation describes the physical clustering or assemblage of particles in a specimen, which is a key material property quantified via electron microscopy (P1, P2, P3).",
+    "references": [
+      {
+        "title": "Testing of aggregation measurement techniques for intramembranous particles.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/7272460/"
+      },
+      {
+        "title": "A review of the terms agglomerate and aggregate with a recommendation for nomenclature used in powder and particle characterization.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/12226837/"
+      },
+      {
+        "title": "From static micrographs to particle aggregation dynamics in three dimensions.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/26584453/"
+      }
+    ]
+  },
+  {
+    "name": "Fiber Alignment",
+    "concept_id": "fiber_alignment",
+    "action": "KEEP",
+    "category": "specimen_morphology",
+    "rationale": "Fiber alignment describes the physical spatial orientation and ordering of fibrous microstructures, which directly dictates material properties such as mechanical anisotropy (P1, P2, P4).",
+    "references": [
+      {
+        "title": "Image-based quantification of fiber alignment within electrospun tissue engineering scaffolds is related to mechanical anisotropy.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/26939754/"
+      },
+      {
+        "title": "Automated quantification of one-dimensional nanostructure alignment on surfaces",
+        "url": "https://arxiv.org/abs/1607.07297"
+      },
+      {
+        "title": "Detecting Carbon Nanotube Orientation with Topological Analysis of Scanning Electron Micrographs.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/35457959/"
+      }
+    ]
+  },
+  {
+    "name": "Surface Texture",
+    "concept_id": "surface_texture",
+    "action": "KEEP",
+    "category": "specimen_morphology",
+    "rationale": "Surface texture describes physical microstructural surface characteristics, fine-scale topography, and striations on a specimen's surface, which materials scientists routinely evaluate using SEM as evidenced by P2, P4, and P5.",
+    "references": [
+      {
+        "title": "Fine details on the surface of human hair.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/19291053/"
+      },
+      {
+        "title": "Evaluating scanning electron microscopy for the measurement of small-scale topography.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/39896093/"
+      },
+      {
+        "title": "Assessment of engineered surfaces roughness by high-resolution 3D SEM photogrammetry.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/28340394/"
+      }
+    ]
+  },
+  {
+    "name": "Feature Isolation",
+    "concept_id": "feature_isolation",
+    "action": "PRUNE",
+    "category": "other",
+    "rationale": "Feature isolation describes visual distinctness and image-level separability of patterns rather than an intrinsic, measurable material morphology property.",
+    "references": []
+  },
+  {
+    "name": "Shadow Sharpness",
+    "concept_id": "shadow_sharpness",
+    "action": "PRUNE",
+    "category": "imaging_condition",
+    "rationale": "Shadow sharpness refers to the clarity and edge gradient of illumination artifacts and detector shading, which is a function of imaging parameters such as focus, beam spot size, and detector geometry rather than intrinsic specimen morphology (P1, P3, P5).",
+    "references": [
+      {
+        "title": "Image sharpness measurement in the scanning electron-microscope--part III.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/10483879/"
+      },
+      {
+        "title": "A boosted decision tree approach to shadow detection in scanning electron microscope (SEM) images for machine vision applications.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30597406/"
+      },
+      {
+        "title": "Evaluating sharpness functions for automated scanning electron microscopy.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/21050212/"
+      }
+    ]
+  },
+  {
+    "name": "Sidewall Verticality",
+    "concept_id": "sidewall_verticality",
+    "action": "KEEP",
+    "category": "specimen_morphology",
+    "rationale": "Sidewall verticality (or sidewall angle) is a critical geometric property of micro- and nano-fabricated material features such as semiconductor or lithographic patterns (P2, P4). It describes the physical shape of the specimen features rather than an artifact of imaging conditions.",
+    "references": [
+      {
+        "title": "Sidewall angle tuning in focused electron beam-induced processing.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/38711581/"
+      },
+      {
+        "title": "A technique for the non-destructive EUV mask sidewall angle measurement using scanning electron microscope.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/24266186/"
+      }
+    ]
+  },
+  {
+    "name": "Layer Interface Definition",
+    "concept_id": "layer_interface_definition",
+    "action": "KEEP",
+    "category": "specimen_morphology",
+    "rationale": "Layer interface definition characterizes physical specimen properties such as interface abruptness, diffuseness, and chemical grading across layer boundaries, rather than microscopy imaging artifacts (P4, P5).",
+    "references": [
+      {
+        "title": "Non-destructive imaging of buried electronic interfaces using a decelerated scanning electron beam.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/27586090/"
+      },
+      {
+        "title": "Measurement of roughness and diffuseness of interfaces",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/10841335/"
+      }
+    ]
+  },
+  {
+    "name": "Particle Size Homogeneity",
+    "concept_id": "particle_size_homogeneity",
+    "action": "KEEP",
+    "category": "specimen_morphology",
+    "rationale": "Particle size homogeneity describes the physical uniformity and size distribution of discrete material features, which is a standard morphological property evaluated via SEM (P4, P5).",
+    "references": [
+      {
+        "title": "Automatic detection of particle size distribution by image analysis based on local adaptive canny edge detection and modified circular Hough transform.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/29304431/"
+      },
+      {
+        "title": "Changes in particle area measurements due to SEM accelerating voltage and magnification.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/12845573/"
+      }
+    ]
+  },
+  {
+    "name": "Feature Angularity/Curvature",
+    "concept_id": "feature_angularity_curvature",
+    "action": "KEEP",
+    "category": "specimen_morphology",
+    "rationale": "Feature angularity and curvature describe intrinsic geometrical and morphological characteristics of microstructural facets, edges, and shapes, which can be measured quantitatively via SEM morphometry as described in P1.",
+    "references": [
+      {
+        "title": "Three-dimensional morphometry in scanning electron microscopy: a technique for accurate dimensional and angular measurements of microstructures using stereopaired digitized images and digital image analysis.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/10444299/"
+      }
+    ]
+  },
+  {
+    "name": "Surface Protrusions",
+    "concept_id": "surface_protrusions",
+    "action": "KEEP",
+    "category": "specimen_morphology",
+    "rationale": "Surface protrusions, such as microvilli, projections, and appendages, represent intrinsic physical morphological features of specimens commonly evaluated in scanning electron microscopy, as documented across biological and material surfaces (P1, P3, P5).",
+    "references": [
+      {
+        "title": "Scanning electron microscopy of cell surface morphology.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/18228517/"
+      },
+      {
+        "title": "Endothelial projections as revealed by scanning electron microscopy.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/5572166/"
+      },
+      {
+        "title": "Electron microscopic observations of prokaryotic surface appendages.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/29214488/"
+      }
+    ]
+  },
+  {
+    "name": "Feature Connectivity",
+    "concept_id": "feature_connectivity",
+    "action": "KEEP",
+    "category": "specimen_morphology",
+    "rationale": "Feature connectivity describes the physical interconnection, bridging, or network formation among morphological elements of the specimen, which is a standard structural property examined in SEM studies (e.g., intercellular structural bridges in P4).",
+    "references": [
+      {
+        "title": "Scanning electron microscopic studies on the formation of cardiac intercellular connection in culture.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/1219147/"
+      }
+    ]
+  },
+  {
+    "name": "Feature Prominence and Slenderness",
+    "concept_id": "feature_prominence_and_slenderness",
+    "action": "KEEP",
+    "category": "specimen_morphology",
+    "rationale": "Feature prominence and slenderness describe the physical aspect ratio and 3D relief (e.g., protrusion or recession) of structural surface features, which are fundamental aspects of surface topography and morphology evaluated in SEM studies (P1, P2, P4).",
+    "references": [
+      {
+        "title": "Scanning electron microscopy of cell surface morphology.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/18228517/"
+      },
+      {
+        "title": "Measurements of the surface microroughness with the scanning electron microscope.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/19196407/"
+      },
+      {
+        "title": "Evaluating scanning electron microscopy for the measurement of small-scale topography.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/39896093/"
+      }
+    ]
+  },
+  {
+    "name": "Pore Shape Uniformity",
+    "concept_id": "pore_shape_uniformity",
+    "action": "KEEP",
+    "category": "specimen_morphology",
+    "rationale": "Pore shape uniformity describes intrinsic structural properties and geometric consistency of porous materials, which are standard morphological features measured in SEM characterization (P1, P2, P4).",
+    "references": [
+      {
+        "title": "Characterization of nanoporous structures: from three dimensions to two dimensions.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/27714154/"
+      },
+      {
+        "title": "Local thickness and anisotropy approaches to characterize pore size distribution of three-dimensional porous networks.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/19061384/"
+      },
+      {
+        "title": "Pore size distribution in tablets measured with a morphological sieve.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/17580106/"
+      }
+    ]
+  },
+  {
+    "name": "Feature Orientation Cohesion",
+    "concept_id": "feature_orientation_cohesion",
+    "action": "KEEP",
+    "category": "specimen_morphology",
+    "rationale": "Feature orientation cohesion characterizes the physical alignment and orientational order of microstructure elements, such as carbon nanotubes or 1D nanostructures, across a specimen (P1, P3, P4).",
+    "references": [
+      {
+        "title": "Automated quantification of one-dimensional nanostructure alignment on surfaces",
+        "url": "https://arxiv.org/abs/1607.07297"
+      },
+      {
+        "title": "Automated quantification of one-dimensional nanostructure alignment on surfaces.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/27119552/"
+      },
+      {
+        "title": "Detecting Carbon Nanotube Orientation with Topological Analysis of Scanning Electron Micrographs.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/35457959/"
+      }
+    ]
+  },
+  {
+    "name": "Feature Edge Clarity",
+    "concept_id": "feature_edge_clarity",
+    "action": "PRUNE",
+    "category": "imaging_condition",
+    "rationale": "Feature edge clarity describes image sharpness, focus, and blur rather than an intrinsic material property of the specimen, as treated in literature on SEM focus and resolution metrics (P3, P4, P5).",
+    "references": [
+      {
+        "title": "No-Reference Quality Assessment Method for Blurriness of SEM Micrographs with Multiple Texture.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/31281563/"
+      },
+      {
+        "title": "Image sharpness measurement in the scanning electron-microscope--part III.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/10483879/"
+      },
+      {
+        "title": "Evaluating sharpness functions for automated scanning electron microscopy.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/21050212/"
+      }
+    ]
+  },
+  {
+    "name": "Substrate Exposure",
+    "concept_id": "substrate_exposure",
+    "action": "KEEP",
+    "category": "specimen_morphology",
+    "rationale": "Substrate exposure describes the physical surface coverage of deposited nanomaterials or thin-film features relative to the supporting substrate, which is a key specimen property characterized in microscopy (e.g., P1).",
+    "references": [
+      {
+        "title": "A new method for estimating nanoparticle deposition coverage from a set of weak-contrast SEM images.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/39303670/"
+      }
+    ]
+  },
+  {
+    "name": "Surface Planarity",
+    "concept_id": "surface_planarity",
+    "action": "KEEP",
+    "category": "specimen_morphology",
+    "rationale": "Surface planarity describes the physical flatness and topographic variation of a material's surface, which is a key specimen morphological property often evaluated via SEM surface topography and roughness analyses (P1, P2).",
+    "references": [
+      {
+        "title": "Evaluating scanning electron microscopy for the measurement of small-scale topography.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/39896093/"
+      },
+      {
+        "title": "Evaluation method of surface roughness using SEM.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41965980/"
+      }
+    ]
+  },
+  {
+    "name": "Feature Aspect Ratio",
+    "concept_id": "feature_aspect_ratio",
+    "action": "KEEP",
+    "category": "specimen_morphology",
+    "rationale": "Feature aspect ratio is an intrinsic geometric and morphological property of micro- and nanostructures that materials scientists quantitatively measure from SEM images (P1, P4).",
+    "references": [
+      {
+        "title": "Exploring the accurate size measurement method for two typical nanostructures basing on SEM imaging.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/31563080/"
+      },
+      {
+        "title": "Optical Detection Method for High Aspect Ratio Microstructures.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/32168956/"
+      }
+    ]
+  },
+  {
+    "name": "Feature Taper",
+    "concept_id": "feature_taper",
+    "action": "KEEP",
+    "category": "specimen_morphology",
+    "rationale": "Feature taper (such as sidewall angle or vertical shape variation) is a key physical structural property of nanostructures and patterned materials evaluated by SEM, as discussed in P1, P3, and P5.",
+    "references": [
+      {
+        "title": "A technique for the non-destructive EUV mask sidewall angle measurement using scanning electron microscope.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/24266186/"
+      },
+      {
+        "title": "Conventional vs. model-based measurement of patterned line widths from scanning electron microscopy profiles.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/31421625/"
+      },
+      {
+        "title": "Scanning electron microscope measurement of width and shape of 10nm patterned lines using a JMONSEL-modeled library.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/25747180/"
+      }
+    ]
+  },
+  {
+    "name": "Feature Form Uniformity",
+    "concept_id": "feature_form_uniformity",
+    "action": "KEEP",
+    "category": "specimen_morphology",
+    "rationale": "Feature form uniformity evaluates the consistency of morphological shapes and surface textures across microstructures or nanostructures, which is an intrinsic material property (P3, P4).",
+    "references": [
+      {
+        "title": "Scanning electron microscope: potentials in the morphology of microorganisms.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/6058004/"
+      },
+      {
+        "title": "Measuring the randomness of micro and nanostructure spatial distributions: Effects of Scanning Electron Microscope image processing and analysis",
+        "url": "https://arxiv.org/abs/2204.04660"
+      }
+    ]
+  },
+  {
+    "name": "Feature Dimensionality",
+    "concept_id": "feature_dimensionality",
+    "action": "KEEP",
+    "category": "specimen_morphology",
+    "rationale": "Feature dimensionality classifies the morphological geometry of the specimen's primary microstructural elements (e.g., 0D nanoparticles, 1D fibers, 2D sheets, or 3D bulk structures), which is a key physical material characteristic evaluated in SEM analysis (P2, P3).",
+    "references": [
+      {
+        "title": "Characterization of nanoporous structures: from three dimensions to two dimensions.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/27714154/"
+      },
+      {
+        "title": "Three-dimensional morphometry in scanning electron microscopy: a technique for accurate dimensional and angular measurements of microstructures using stereopaired digitized images and digital image analysis.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/10444299/"
+      }
+    ]
+  },
+  {
+    "name": "Feature Interpenetration",
+    "concept_id": "feature_interpenetration",
+    "action": "KEEP",
+    "category": "specimen_morphology",
+    "rationale": "Feature interpenetration describes the physical co-continuous or intertwined arrangement of phases within a multiphase material, directly reflecting the specimen's microstructure as evaluated in phase and stereological analysis (P1, P4).",
+    "references": [
+      {
+        "title": "Segmentability evaluation of back-scattered SEM images of multiphase materials.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/38065012/"
+      },
+      {
+        "title": "Stereological analysis in scanning electron microscopy.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/491978/"
+      }
+    ]
+  },
+  {
+    "name": "Feature Brightness Contrast",
+    "concept_id": "feature_brightness_contrast",
+    "action": "PRUNE",
+    "category": "imaging_condition",
+    "rationale": "Feature brightness contrast describes the intensity difference and visual dynamic range resulting from detector settings and imaging acquisition rather than intrinsic physical morphology of the specimen, as treated in image quality literature like P1 and P4.",
+    "references": [
+      {
+        "title": "The contrast-to-noise ratio for image quality evaluation in scanning electron microscopy.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/25533747/"
+      },
+      {
+        "title": "An improved contrast equalization technique for contrast enhancement in scanning electron microscopy images.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30198214/"
+      }
+    ]
+  },
+  {
+    "name": "Feature Surface Texture",
+    "concept_id": "feature_surface_texture",
+    "action": "KEEP",
+    "category": "specimen_morphology",
+    "rationale": "Feature surface texture describes the physical fine-scale topography, roughness, and patterns on a specimen's surface, which is a key material morphological characteristic evaluated using SEM (P2, P4, P5).",
+    "references": [
+      {
+        "title": "Evaluating scanning electron microscopy for the measurement of small-scale topography.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/39896093/"
+      },
+      {
+        "title": "Assessment of engineered surfaces roughness by high-resolution 3D SEM photogrammetry.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/28340394/"
+      },
+      {
+        "title": "Fine details on the surface of human hair.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/19291053/"
+      }
+    ]
+  },
+  {
+    "name": "Feature Cross-Sectional Uniformity",
+    "concept_id": "feature_cross_sectional_uniformity",
+    "action": "KEEP",
+    "category": "specimen_morphology",
+    "rationale": "Feature cross-sectional uniformity describes an intrinsic geometric and structural property of specimen features (such as fibers, channels, or particles), characterizing width or shape consistency across the material as explored in P1.",
+    "references": [
+      {
+        "title": "Characterizing Width Uniformity by Wave Propagation",
+        "url": "https://arxiv.org/abs/cond-mat/0305010"
+      }
+    ]
+  },
+  {
+    "name": "Feature Tip Morphology",
+    "concept_id": "feature_tip_morphology",
+    "action": "KEEP",
+    "category": "specimen_morphology",
+    "rationale": "Feature tip morphology evaluates intrinsic physical characteristics of the specimen, such as the sharpness and shape of protruding feature terminations, as analyzed in materials science and biological samples using SEM (P1, P2).",
+    "references": [
+      {
+        "title": "Scanning electron microscopy of cell surface morphology.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/18228517/"
+      },
+      {
+        "title": "[A morphological study of human hair tips by scanning electronic microscope (SEM)].",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/11938877/"
+      }
+    ]
+  },
+  {
+    "name": "Substrate Particle Coverage",
+    "concept_id": "substrate_particle_coverage",
+    "action": "KEEP",
+    "category": "specimen_morphology",
+    "rationale": "Substrate particle coverage measures the physical density and surface distribution of deposited particles across a substrate, a material morphology metric commonly characterized in electron microscopy (P3).",
+    "references": [
+      {
+        "title": "A new method for estimating nanoparticle deposition coverage from a set of weak-contrast SEM images.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/39303670/"
+      }
+    ]
+  },
+  {
+    "name": "Image Focus Uniformity",
+    "concept_id": "image_focus_uniformity",
+    "action": "PRUNE",
+    "category": "imaging_condition",
+    "rationale": "Image focus uniformity describes microscope acquisition quality rather than intrinsic material properties, as evidenced by literature focusing on autofocus metrics, sharpness measurement, and blurriness evaluation (P1, P3, P4).",
+    "references": [
+      {
+        "title": "Evaluating sharpness functions for automated scanning electron microscopy.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/21050212/"
+      },
+      {
+        "title": "No-Reference Quality Assessment Method for Blurriness of SEM Micrographs with Multiple Texture.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/31281563/"
+      },
+      {
+        "title": "Image sharpness measurement in the scanning electron-microscope--part III.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/10483879/"
+      }
+    ]
+  },
+  {
+    "name": "Feature Relief Height",
+    "concept_id": "feature_relief_height",
+    "action": "KEEP",
+    "category": "specimen_morphology",
+    "rationale": "Feature relief height describes physical surface topography and vertical protrusion of structures on a specimen, a key morphological property characterized in materials science (P1, P4, P5).",
+    "references": [
+      {
+        "title": "Estimating Step Heights from Top-Down SEM Images.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/31109392/"
+      },
+      {
+        "title": "Measuring surface topography with scanning electron microscopy. I. EZEImage: a program to obtain 3D surface data.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/17481354/"
+      },
+      {
+        "title": "Correcting for 3D distortion when using backscattered electron detectors in a scanning electron microscope.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/19204999/"
+      }
+    ]
+  },
+  {
+    "name": "Surface Granularity",
+    "concept_id": "surface_granularity",
+    "action": "KEEP",
+    "category": "specimen_morphology",
+    "rationale": "Surface granularity describes the physical texture and presence of fine-scale particulate features inherent to the material surface, as characterized in materials studies such as P3 and related surface topography work in P4.",
+    "references": [
+      {
+        "title": "Reference sample for the evaluation of SEM image resolution at a high magnification--nanometer-scale Au particles on an HOPG substrate.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/16123061/"
+      },
+      {
+        "title": "Measuring surface topography by scanning electron microscopy. II. Analysis of three estimators of surface roughness in second dimension and third dimension.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/17481355/"
+      }
+    ]
+  },
+  {
+    "name": "Feature Directionality",
+    "concept_id": "feature_directionality",
+    "action": "KEEP",
+    "category": "specimen_morphology",
+    "rationale": "Feature directionality evaluates the preferred structural orientation and alignment of microstructural elements, which is a recognized material morphology property characterized in SEM imaging (P5).",
+    "references": [
+      {
+        "title": "Automated quantification of one-dimensional nanostructure alignment on surfaces",
+        "url": "https://arxiv.org/abs/1607.07297"
+      }
+    ]
+  },
+  {
+    "name": "Feature Shape Uniformity and Definition",
+    "concept_id": "feature_shape_uniformity_and_definition",
+    "action": "KEEP",
+    "category": "specimen_morphology",
+    "rationale": "The concept measures the physical shape uniformity, planar geometry, and aspect ratios of discrete morphological features in the specimen, which is an intrinsic material characteristic.",
+    "references": []
+  },
+  {
+    "name": "Feature Branching Complexity",
+    "concept_id": "feature_branching_complexity",
+    "action": "KEEP",
+    "category": "specimen_morphology",
+    "rationale": "Feature branching complexity describes intrinsic structural characteristics of physical specimens, such as dendritic or ramified network morphology commonly analyzed in morphometric imaging (P2, P5).",
+    "references": [
+      {
+        "title": "BranchAnalysis2D/3D automates morphometry analyses of branching structures.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/29061345/"
+      },
+      {
+        "title": "Scanning electron microscopic observation of mouse embryonic submandibular glands during initial branching: preferential localization of fibrillar structures at the mesenchymal ridges participating in cleft formation.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/3027232/"
+      }
+    ]
+  },
+  {
+    "name": "Feature Interconnection Density",
+    "concept_id": "feature_interconnection_density",
+    "action": "KEEP",
+    "category": "specimen_morphology",
+    "rationale": "Feature interconnection density characterizes the structural topology, connectivity, and network formation of fibrous or elongated material features, which directly dictate physical and mechanical properties as described in P1, P2, and P4.",
+    "references": [
+      {
+        "title": "Characterization of the complete fiber network topology of planar fibrous tissues and scaffolds.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/20398930/"
+      },
+      {
+        "title": "Automated Multi-Scale Morphometry Analysis of Fibrous Networks.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41939325/"
+      },
+      {
+        "title": "A systematic review and comparison of automated tools for quantification of fibrous networks.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/36509400/"
+      }
+    ]
+  },
+  {
+    "name": "Image Sharpness",
+    "concept_id": "image_sharpness",
+    "action": "PRUNE",
+    "category": "imaging_condition",
+    "rationale": "Image sharpness reflects instrument focus, resolution, and acquisition quality rather than an inherent morphological property of the specimen, as demonstrated by autofocus and quality assessment methods (P1, P2, P3).",
+    "references": [
+      {
+        "title": "Evaluating sharpness functions for automated scanning electron microscopy.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/21050212/"
+      },
+      {
+        "title": "Image sharpness measurement in the scanning electron-microscope--part III.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/10483879/"
+      },
+      {
+        "title": "No-Reference Quality Assessment Method for Blurriness of SEM Micrographs with Multiple Texture.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/31281563/"
+      }
+    ]
+  },
+  {
+    "name": "Feature Edge Definition",
+    "concept_id": "feature_edge_definition",
+    "action": "PRUNE",
+    "category": "imaging_condition",
+    "rationale": "Feature edge definition and sharpness describe imaging quality parameters such as focus, edge contrast, and instrument resolution rather than intrinsic physical properties of the material (P1, P3, P4).",
+    "references": [
+      {
+        "title": "Edge Sharpening for Unbiased Edge Detection in Field Emission Scanning Electron Microscope Images.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/10341013/"
+      },
+      {
+        "title": "Influence of a combination of random noise and pattern-edge width (in pixels) on contrast-to-gradient image resolution in scanning electron microscopy.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/17172265/"
+      },
+      {
+        "title": "Contrast-to-gradient method for the evaluation of image resolution in scanning electron microscopy.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/12630780/"
+      }
+    ]
+  },
+  {
+    "name": "Feature Size Disparity",
+    "concept_id": "feature_size_disparity",
+    "action": "KEEP",
+    "category": "specimen_morphology",
+    "rationale": "Feature size disparity describes the polydispersity and size distribution of microstructure features within the specimen, which is a physical material property measured via SEM (P4).",
+    "references": [
+      {
+        "title": "Changes in particle area measurements due to SEM accelerating voltage and magnification.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/12845573/"
+      }
+    ]
+  },
+  {
+    "name": "Feature Overlap",
+    "concept_id": "feature_overlap",
+    "action": "KEEP",
+    "category": "specimen_morphology",
+    "rationale": "Feature overlap describes the physical 3D arrangement, packing, and stacking of microstructure constituents such as particles or fibers within the specimen volume, as analyzed in projection studies of particulate assemblies (P5).",
+    "references": [
+      {
+        "title": "Disordered spheres with extensive overlap in projection: image simulation and analysis.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22053943/"
+      }
+    ]
+  },
+  {
+    "name": "Background Clutter",
+    "concept_id": "background_clutter",
+    "action": "PRUNE",
+    "category": "other",
+    "rationale": "Background clutter relates to image composition, sample cleanliness, or noise rather than an intrinsic physical morphology of the specimen, making it an artifact or compositional feature as discussed in general imaging contexts (P1).",
+    "references": [
+      {
+        "title": "Nanomanufacturing Concerns about Measurements Made in the SEM Part V: Dealing with Noise.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/39873001/"
+      }
+    ]
+  },
+  {
+    "name": "Feature Edge Curvature Uniformity",
+    "concept_id": "feature_edge_curvature_uniformity",
+    "action": "KEEP",
+    "category": "specimen_morphology",
+    "rationale": "Feature edge curvature uniformity describes the geometric shape consistency of boundaries or edges belonging to the physical specimen's microstructural features rather than imaging artifacts.",
+    "references": []
+  },
+  {
+    "name": "Feature Termination Sharpness",
+    "concept_id": "feature_termination_sharpness",
+    "action": "KEEP",
+    "category": "specimen_morphology",
+    "rationale": "Although the retrieved papers (P1-P5) focus on optical image sharpness and resolution, the concept itself defines the physical geometric shape (blunt, rounded, or sharply terminated/pointed) of elongated specimen features such as fibers, cracks, or crystalline needles.",
+    "references": []
+  },
+  {
+    "name": "Feature Smoothness",
+    "concept_id": "feature_smoothness",
+    "action": "KEEP",
+    "category": "specimen_morphology",
+    "rationale": "Feature smoothness evaluates the surface topography and boundary regularities of specimen microstructures, which is a key physical property analyzed in SEM studies (P2, P3, P5).",
+    "references": [
+      {
+        "title": "Evaluating scanning electron microscopy for the measurement of small-scale topography.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/39896093/"
+      },
+      {
+        "title": "Assessment of engineered surfaces roughness by high-resolution 3D SEM photogrammetry.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/28340394/"
+      },
+      {
+        "title": "Smoothness assessment of corneal stromal surfaces.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/23128030/"
+      }
+    ]
+  },
+  {
+    "name": "Feature Internal Structure Visibility",
+    "concept_id": "feature_internal_structure_visibility",
+    "action": "PRUNE",
+    "category": "imaging_condition",
+    "rationale": "The concept measures the clarity and visibility with which internal structures can be discerned, which depends on imaging resolution, sample preparation, and detection conditions rather than an intrinsic specimen morphological metric (as discussed in P1, P3, and P4).",
+    "references": [
+      {
+        "title": "Contribution of scanning electron microscopy to viewing internal cell structure.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/6762649/"
+      },
+      {
+        "title": "Sample preparation for electron microscopy of internal cell structure.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/1504346/"
+      },
+      {
+        "title": "Visualization of subsurface structures in cells and tissues by backscattered electron imaging.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/93305/"
+      }
+    ]
+  },
+  {
+    "name": "Surface Texture Fineness",
+    "concept_id": "surface_texture_fineness",
+    "action": "KEEP",
+    "category": "specimen_morphology",
+    "rationale": "Surface texture fineness describes intrinsic physical surface topography and roughness characteristics across scales, which materials scientists routinely quantify from SEM images (P1, P2).",
+    "references": [
+      {
+        "title": "Evaluating scanning electron microscopy for the measurement of small-scale topography.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/39896093/"
+      },
+      {
+        "title": "Measuring surface topography by scanning electron microscopy. II. Analysis of three estimators of surface roughness in second dimension and third dimension.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/17481355/"
+      }
+    ]
+  },
+  {
+    "name": "Discrete Particle Density",
+    "concept_id": "discrete_particle_density",
+    "action": "KEEP",
+    "category": "specimen_morphology",
+    "rationale": "Discrete particle density measures the spatial concentration and number of individual particles in a microstructure, which is an intrinsic specimen property routinely quantified in stereology and materials science (P1, P2).",
+    "references": [
+      {
+        "title": "Efficient estimation of number density in opaque material microstructures: the large-area disector.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/11106967/"
+      },
+      {
+        "title": "On the estimation of particle number.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/7431382/"
+      }
+    ]
+  },
+  {
+    "name": "Background Uniformity",
+    "concept_id": "background_uniformity",
+    "action": "PRUNE",
+    "category": "other",
+    "rationale": "Background uniformity describes the visual appearance of the substrate or non-specimen background in the field of view rather than an intrinsic morphological feature of the specimen itself.",
+    "references": []
+  },
+  {
+    "name": "Linear Feature Parallelism",
+    "concept_id": "linear_feature_parallelism",
+    "action": "KEEP",
+    "category": "specimen_morphology",
+    "rationale": "Linear feature parallelism describes the physical orientation and alignment of structural components such as one-dimensional nanostructures, which is an intrinsic specimen property quantifiable via microscopy as demonstrated in P5.",
+    "references": [
+      {
+        "title": "Automated quantification of one-dimensional nanostructure alignment on surfaces",
+        "url": "https://arxiv.org/abs/1607.07297"
+      }
+    ]
+  },
+  {
+    "name": "Feature Depth Perception",
+    "concept_id": "feature_depth_perception",
+    "action": "PRUNE",
+    "category": "imaging_condition",
+    "rationale": "Feature depth perception describes the visual/optical impression of 3D relief produced by lighting, shadows, and perspective in 2D micrographs rather than an inherent, measurable physical morphological property of the specimen itself (P1, P2).",
+    "references": [
+      {
+        "title": "Shadows and depth illusions.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/8938006/"
+      },
+      {
+        "title": "A boosted decision tree approach to shadow detection in scanning electron microscope (SEM) images for machine vision applications.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30597406/"
+      }
+    ]
+  },
+  {
+    "name": "Feature Volume Fraction",
+    "concept_id": "feature_volume_fraction",
+    "action": "KEEP",
+    "category": "specimen_morphology",
+    "rationale": "Volume fraction or area fraction of microstructural features is a standard stereological metric describing the composition and physical morphology of a material (P2, P3).",
+    "references": [
+      {
+        "title": "RAFT: A program for area fraction measurement of digital micrographs.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41494425/"
+      },
+      {
+        "title": "Stereological analysis in scanning electron microscopy.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/491978/"
+      }
+    ]
+  },
+  {
+    "name": "Feature Interstitial Space",
+    "concept_id": "feature_interstitial_space",
+    "action": "KEEP",
+    "category": "specimen_morphology",
+    "rationale": "Interstitial space describes the packing density and spatial arrangement of microstructure features or voids within a material, which is a key specimen morphological property analyzed via SEM (as demonstrated in P1 and P3).",
+    "references": [
+      {
+        "title": "The quantitative morphology of interstitial tissue channels in some tissues of the rat and rabbit.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/725912/"
+      },
+      {
+        "title": "[Structure of the interstitial space and ground substance of the human articular cartilage].",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/2400333/"
+      }
+    ]
+  },
+  {
+    "name": "Background Texture Homogeneity",
+    "concept_id": "background_texture_homogeneity",
+    "action": "PRUNE",
+    "category": "other",
+    "rationale": "The concept evaluates the visual uniformity of an uncharacterized background or substrate area in the image rather than an intrinsic morphological property of the specimen itself. Papers like P3 focus on generic image processing homogeneity rather than specific physical material properties.",
+    "references": [
+      {
+        "title": "Robust Segmentation-Free Algorithm for Homogeneity Quantification in Images.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/34101591/"
+      }
+    ]
+  },
+  {
+    "name": "Feature Material Loss",
+    "concept_id": "feature_material_loss",
+    "action": "KEEP",
+    "category": "specimen_morphology",
+    "rationale": "Feature material loss describes structural degradation, erosion, or gaps in the specimen's physical features, which is an intrinsic morphological property evaluated during defect inspection or damage analysis (e.g., as discussed in P4).",
+    "references": [
+      {
+        "title": "Application of the low-loss scanning electron microscope image to integrated circuit technology. Part 1--Applications to accurate dimension measurements.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/11587322/"
+      }
+    ]
+  },
+  {
+    "name": "Feature Aspect Ratio Homogeneity",
+    "concept_id": "feature_aspect_ratio_homogeneity",
+    "action": "KEEP",
+    "category": "specimen_morphology",
+    "rationale": "Feature aspect ratio homogeneity characterizes the morphological consistency in the shapes and dimensions of microstructural entities (such as grains, pores, or particles) across the specimen, representing an intrinsic material property. The retrieved papers focus on imaging performance metrics (SNR, resolution, sharpness) rather than morphology and are not directly relevant.",
+    "references": []
+  },
+  {
+    "name": "Feature Brightness Uniformity",
+    "concept_id": "feature_brightness_uniformity",
+    "action": "PRUNE",
+    "category": "imaging_condition",
+    "rationale": "Feature brightness uniformity describes image-level pixel intensity consistency across regions, which is an imaging and detector artifact condition rather than intrinsic physical specimen morphology.",
+    "references": []
+  },
+  {
+    "name": "Surface Relief Texturing",
+    "concept_id": "surface_relief_texturing",
+    "action": "KEEP",
+    "category": "specimen_morphology",
+    "rationale": "Surface relief texturing describes the intrinsic 3D topography and micro-patterns engineered onto or present on a material's surface, which materials scientists quantitatively evaluate using SEM as shown in P1 and P4.",
+    "references": [
+      {
+        "title": "Assessment of engineered surfaces roughness by high-resolution 3D SEM photogrammetry.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/28340394/"
+      },
+      {
+        "title": "Evaluating scanning electron microscopy for the measurement of small-scale topography.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/39896093/"
+      }
+    ]
+  }
+]

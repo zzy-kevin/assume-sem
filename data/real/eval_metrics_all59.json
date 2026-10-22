@@ -1,0 +1,25 @@
+{
+  "timestamp": "2026-10-22T15:15:54.937441+00:00",
+  "sample_count": 1543,
+  "class_count": 8,
+  "classes": [
+    "Biological",
+    "Fibres",
+    "Films_Coated_Surface",
+    "Nanowires",
+    "Particles",
+    "Patterned_surface",
+    "Porous_Sponge",
+    "Powder"
+  ],
+  "dinov3_feature_dim": 384,
+  "assume_feature_dim": 59,
+  "dinov3_cosine_silhouette": 0.12706881761550903,
+  "assume_cosine_silhouette": 0.13822324573993683,
+  "knn_k_neighbors": 5,
+  "cv_folds": 5,
+  "dinov3_knn_accuracy_mean": 0.900838481906443,
+  "dinov3_knn_accuracy_std": 0.021782631261400367,
+  "assume_knn_accuracy_mean": 0.8528705921909804,
+  "assume_knn_accuracy_std": 0.02368135862274448
+}

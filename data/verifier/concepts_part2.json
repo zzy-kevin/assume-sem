@@ -1,0 +1,102 @@
+[
+ {
+  "concept_id": "feature_edge_definition",
+  "name": "Feature Edge Definition",
+  "definition": "The clarity and distinctness of the boundaries separating individual features or structures from their surroundings."
+ },
+ {
+  "concept_id": "feature_size_disparity",
+  "name": "Feature Size Disparity",
+  "definition": "The extent of variation in the characteristic dimensions (e.g., length, width, diameter) among individual features within the image."
+ },
+ {
+  "concept_id": "feature_overlap",
+  "name": "Feature Overlap",
+  "definition": "The extent to which individual features visually obscure or stack upon one another, creating layers or depth."
+ },
+ {
+  "concept_id": "background_clutter",
+  "name": "Background Clutter",
+  "definition": "The degree to which the non-feature areas of the image contain extraneous, unresolved, or indistinct material."
+ },
+ {
+  "concept_id": "feature_edge_curvature_uniformity",
+  "name": "Feature Edge Curvature Uniformity",
+  "definition": "The consistency in the degree of curvature along the edges of individual features."
+ },
+ {
+  "concept_id": "feature_termination_sharpness",
+  "name": "Feature Termination Sharpness",
+  "definition": "This concept quantifies the sharpness and abruptness of the ends of elongated or distinct features."
+ },
+ {
+  "concept_id": "feature_smoothness",
+  "name": "Feature Smoothness",
+  "definition": "The degree to which the visible aspects (surfaces, walls, or edges) of distinct features appear free from texture, roughness, or irregularities."
+ },
+ {
+  "concept_id": "feature_internal_structure_visibility",
+  "name": "Feature Internal Structure Visibility",
+  "definition": "This concept assesses the clarity and presence of discernible internal structures or hollow regions within individual features."
+ },
+ {
+  "concept_id": "surface_texture_fineness",
+  "name": "Surface Texture Fineness",
+  "definition": "This concept quantifies the characteristic scale of the smallest discernible textural elements on a surface."
+ },
+ {
+  "concept_id": "discrete_particle_density",
+  "name": "Discrete Particle Density",
+  "definition": "The number of distinct, individual particles or features present on a relatively uniform background."
+ },
+ {
+  "concept_id": "background_uniformity",
+  "name": "Background Uniformity",
+  "definition": "The degree to which the background or underlying substrate appears homogeneous in texture and intensity, free from significant patterns or variations."
+ },
+ {
+  "concept_id": "linear_feature_parallelism",
+  "name": "Linear Feature Parallelism",
+  "definition": "The extent to which linear features within the image are aligned parallel to each other."
+ },
+ {
+  "concept_id": "feature_depth_perception",
+  "name": "Feature Depth Perception",
+  "definition": "The visual impression of three-dimensional depth and height differences among features, often indicated by strong shadows or perspective."
+ },
+ {
+  "concept_id": "feature_volume_fraction",
+  "name": "Feature Volume Fraction",
+  "definition": "The proportion of the image area occupied by distinct, high-contrast features relative to the background or matrix."
+ },
+ {
+  "concept_id": "feature_interstitial_space",
+  "name": "Feature Interstitial Space",
+  "definition": "The extent of visible empty or low-density space between distinct features."
+ },
+ {
+  "concept_id": "background_texture_homogeneity",
+  "name": "Background Texture Homogeneity",
+  "definition": "The uniformity of the underlying background or matrix texture, excluding distinct foreground features."
+ },
+ {
+  "concept_id": "feature_material_loss",
+  "name": "Feature Material Loss",
+  "definition": "The degree to which the primary features exhibit missing or eroded material, leading to gaps or incomplete structures."
+ },
+ {
+  "concept_id": "feature_aspect_ratio_homogeneity",
+  "name": "Feature Aspect Ratio Homogeneity",
+  "definition": "The uniformity in the ratio of length to width (or major to minor axis) among distinct features in the image."
+ },
+ {
+  "concept_id": "feature_brightness_uniformity",
+  "name": "Feature Brightness Uniformity",
+  "definition": "The consistency of the grayscale intensity (brightness) within and across the primary features."
+ },
+ {
+  "concept_id": "surface_relief_texturing",
+  "name": "Surface Relief Texturing",
+  "definition": "Measures the presence and prominence of fine, consistent, and intentional three-dimensional patterns or markings on a surface."
+ }
+]

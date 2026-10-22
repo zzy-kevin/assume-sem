@@ -1,0 +1,50 @@
+# --- Secrets ---
+.env
+.env.*
+!.env.example
+
+# --- Python / tooling ---
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# --- Agent / editor scratch ---
+.agents/
+.claude/
+~$*
+~WRL*.tmp
+*.tmp
+
+# --- Full-resolution micrographs are not in the repo; data/micrographs/ holds a downsampled CC BY 4.0 subset ---
+*.jpg
+*.jpeg
+*.tif
+*.tiff
+!data/micrographs/**/*.jpg
+
+# --- Root-level symlinks / legacy duplicates of data/ ---
+/dinov3_pooled.npy
+/manifest.parquet
+/umap_*.png
+/ASSUME Hackathon Pipeline.pdf
+
+# --- Report drafts (keep the PDF only) ---
+*.docx
+writeup_draft.md
+
+# --- Regenerable visual outputs (~230 MB) ---
+visualizations/*
+!visualizations/concept_planes/
+visualizations/concept_planes/*
+!visualizations/concept_planes/*.csv
+!visualizations/concept_planes/*.json
+!visualizations/concept_planes/plane0_*.png
+data/umap_*.png
+
+# --- Intermediate / partial scoring runs and logs ---
+data/real/_gemini25_partial*/
+data/verifier/_gemini25/
+data/real/*_first8.npy
+*.log

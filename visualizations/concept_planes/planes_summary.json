@@ -1,0 +1,50 @@
+[
+  {
+    "x": "feature_elongation",
+    "y": "feature_occupancy_density",
+    "occupancy": 0.77,
+    "r_xy": 0.15053800040227314,
+    "r2x": 0.7109551422066128,
+    "r2y": 0.5975923105259988
+  },
+  {
+    "x": "feature_directionality",
+    "y": "feature_overlap",
+    "occupancy": 0.87,
+    "r_xy": 0.002859753320364904,
+    "r2x": 0.6084356244578617,
+    "r2y": 0.6219402482157866
+  },
+  {
+    "x": "substrate_exposure",
+    "y": "linear_feature_parallelism",
+    "occupancy": 0.88,
+    "r_xy": -0.04818366804271132,
+    "r2x": 0.573492436754778,
+    "r2y": 0.7048666097802248
+  },
+  {
+    "x": "fiber_alignment",
+    "y": "feature_interpenetration",
+    "occupancy": 0.81,
+    "r_xy": -0.04277018386968815,
+    "r2x": 0.6945776820257565,
+    "r2y": 0.6336931552286624
+  },
+  {
+    "x": "feature_relief_height",
+    "y": "surface_texture_fineness",
+    "occupancy": 0.83,
+    "r_xy": -0.011416989735979327,
+    "r2x": 0.6609809577805263,
+    "r2y": 0.5451261277905917
+  },
+  {
+    "x": "feature_connectivity",
+    "y": "feature_prominence_and_slenderness",
+    "occupancy": 0.82,
+    "r_xy": 0.01102776281241639,
+    "r2x": 0.5135796529705261,
+    "r2y": 0.5930928190850983
+  }
+]

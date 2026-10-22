@@ -1,0 +1,302 @@
+[
+  {
+    "concept_id": "filamentous_fiber_packing_density",
+    "name": "Filamentous Fiber Packing Density",
+    "definition": "The degree of space filling by elongated, cylindrical fibrous or wire-like structural elements within the field of view.",
+    "description": "The degree of space filling by elongated, cylindrical fibrous or wire-like structural elements within the field of view.",
+    "scale_1": "Entirely absent; no continuous elongated fibers or bundles are present in the microstructure.",
+    "scale_5": "Moderate presence of fibers or wire bundles loosely organized with noticeable void spacing between bundles.",
+    "scale_10": "Microstructure is completely dominated by tightly interwoven bundles of continuous, high-aspect-ratio fibers with minimal open space.",
+    "scoring_guide": "1: Entirely absent; no continuous elongated fibers or bundles are present in the microstructure.; 5: Moderate presence of fibers or wire bundles loosely organized with noticeable void spacing between bundles.; 10: Microstructure is completely dominated by tightly interwoven bundles of continuous, high-aspect-ratio fibers with minimal open space."
+  },
+  {
+    "concept_id": "periodic_array_regularity",
+    "name": "Periodic Array Regularity",
+    "definition": "The degree to which discrete morphological features are arranged in a repeating, highly ordered geometric 1D or 2D grid.",
+    "description": "The degree to which discrete morphological features are arranged in a repeating, highly ordered geometric 1D or 2D grid.",
+    "scale_1": "Complete absence of translational periodicity or repeating grid patterns; features are randomly distributed or featureless.",
+    "scale_5": "Partial or localized periodicity, such as a localized linear grating or patch of repeating units occupying only a portion of the field of view.",
+    "scale_10": "Global, highly uniform two-dimensional repeating array tiling across the entire field of view with strict translational symmetry.",
+    "scoring_guide": "1: Complete absence of translational periodicity or repeating grid patterns; features are randomly distributed or featureless.; 5: Partial or localized periodicity, such as a localized linear grating or patch of repeating units occupying only a portion of the field of view.; 10: Global, highly uniform two-dimensional repeating array tiling across the entire field of view with strict translational symmetry."
+  },
+  {
+    "concept_id": "topographical_relief_and_edge_contrast_prominence",
+    "name": "Topographical Relief and Edge Contrast Prominence",
+    "definition": "The magnitude of out-of-plane vertical stepping, trench depth, and associated secondary electron edge emission brightness along sharp structural boundaries.",
+    "description": "The magnitude of out-of-plane vertical stepping, trench depth, and associated secondary electron edge emission brightness along sharp structural boundaries.",
+    "scale_1": "Planar and flush morphology lacking vertical steps, recessed boundaries, or bright secondary electron edge fringes.",
+    "scale_5": "Moderate three-dimensional relief with visible shallow trenches and well-defined, distinct bright edge emission lines along contours.",
+    "scale_10": "Pronounced vertical relief exhibiting deep shadowed interstitial voids and intensely bright, blooming emission rims along tall projecting features.",
+    "scoring_guide": "1: Planar and flush morphology lacking vertical steps, recessed boundaries, or bright secondary electron edge fringes.; 5: Moderate three-dimensional relief with visible shallow trenches and well-defined, distinct bright edge emission lines along contours.; 10: Pronounced vertical relief exhibiting deep shadowed interstitial voids and intensely bright, blooming emission rims along tall projecting features."
+  },
+  {
+    "concept_id": "microstructural_grain_contrast_patchiness",
+    "name": "Microstructural Grain Contrast Patchiness",
+    "definition": "The presence of planar, multi-tonal gray-level patches corresponding to orientation contrast or multi-phase planar domain mosaics.",
+    "description": "The presence of planar, multi-tonal gray-level patches corresponding to orientation contrast or multi-phase planar domain mosaics.",
+    "scale_1": "Uniform, homogeneous gray tone across the background matrix with no visible grain-to-grain channeling or orientation contrast.",
+    "scale_5": "Faint or localized contrast variations with subtle boundary demarcations across some regions of the matrix.",
+    "scale_10": "Pervasive, continuous mosaic of contrasting light and dark planar domains covering the entire viewing area.",
+    "scoring_guide": "1: Uniform, homogeneous gray tone across the background matrix with no visible grain-to-grain channeling or orientation contrast.; 5: Faint or localized contrast variations with subtle boundary demarcations across some regions of the matrix.; 10: Pervasive, continuous mosaic of contrasting light and dark planar domains covering the entire viewing area."
+  },
+  {
+    "concept_id": "directional_alignment_of_elongated_structures",
+    "name": "Directional Alignment of Elongated Structures",
+    "definition": "The degree of mutual parallel orientation exhibited by elongated microstructural elements such as columns, fibers, or striations.",
+    "description": "The degree of mutual parallel orientation exhibited by elongated microstructural elements such as columns, fibers, or striations.",
+    "scale_1": "Completely isotropic or equiaxed features with no discernible preferred orientation axis.",
+    "scale_5": "Partially oriented features showing a moderate preferred direction with frequent local misalignments.",
+    "scale_10": "Strictly parallel alignment of elongated structures uniformly spanning the entire field of view.",
+    "scoring_guide": "1: Completely isotropic or equiaxed features with no discernible preferred orientation axis.; 5: Partially oriented features showing a moderate preferred direction with frequent local misalignments.; 10: Strictly parallel alignment of elongated structures uniformly spanning the entire field of view."
+  },
+  {
+    "concept_id": "planar_boundary_and_facet_edge_sharpness",
+    "name": "Planar Boundary and Facet Edge Sharpness",
+    "definition": "The visual distinctness, contrast, and angular sharpness of lines or intersections delineating planar surfaces or macroscopic structural facets.",
+    "description": "The visual distinctness, contrast, and angular sharpness of lines or intersections delineating planar surfaces or macroscopic structural facets.",
+    "scale_1": "Entirely absent; surfaces are curved, rounded, or uniformly textured without visible planar boundaries or angular facet edges.",
+    "scale_5": "Moderately defined planar boundaries or softly rounded facet junctions with moderate edge contrast and partial continuity.",
+    "scale_10": "Crisp, razor-sharp, high-contrast linear boundaries and acute intersections defining prominent geometric planar facets.",
+    "scoring_guide": "1: Entirely absent; surfaces are curved, rounded, or uniformly textured without visible planar boundaries or angular facet edges.; 5: Moderately defined planar boundaries or softly rounded facet junctions with moderate edge contrast and partial continuity.; 10: Crisp, razor-sharp, high-contrast linear boundaries and acute intersections defining prominent geometric planar facets."
+  },
+  {
+    "concept_id": "aspect_ratio_of_primary_microstructural_units",
+    "name": "Aspect Ratio of Primary Microstructural Units",
+    "definition": "The ratio of the longest dimension to the shortest orthogonal dimension of the primary identifiable individual structural units.",
+    "description": "The ratio of the longest dimension to the shortest orthogonal dimension of the primary identifiable individual structural units.",
+    "scale_1": "Equiaxed units with roughly circular, polygonal, or square shapes having an aspect ratio near 1:1.",
+    "scale_5": "Moderately elongated units such as short columns or oblong nodules with aspect ratios around 2:1 to 4:1.",
+    "scale_10": "Extremely elongated, continuous longitudinal fibers or pillars with aspect ratios exceeding 10:1.",
+    "scoring_guide": "1: Equiaxed units with roughly circular, polygonal, or square shapes having an aspect ratio near 1:1.; 5: Moderately elongated units such as short columns or oblong nodules with aspect ratios around 2:1 to 4:1.; 10: Extremely elongated, continuous longitudinal fibers or pillars with aspect ratios exceeding 10:1."
+  },
+  {
+    "concept_id": "discrete_particle_spatial_areal_density",
+    "name": "Discrete Particle Spatial Areal Density",
+    "definition": "The number concentration of isolated, detached small particulate units per unit field-of-view area across the substrate.",
+    "description": "The number concentration of isolated, detached small particulate units per unit field-of-view area across the substrate.",
+    "scale_1": "Entirely absent or continuous bulk phase with zero isolated individual particulate units visible",
+    "scale_5": "Sparse to moderate scattering of separated particulate units occupying a minor fraction of the visual field",
+    "scale_10": "High spatial concentration of separate particulate entities distributed ubiquitously across the entire field of view",
+    "scoring_guide": "1: Entirely absent or continuous bulk phase with zero isolated individual particulate units visible; 5: Sparse to moderate scattering of separated particulate units occupying a minor fraction of the visual field; 10: High spatial concentration of separate particulate entities distributed ubiquitously across the entire field of view"
+  },
+  {
+    "concept_id": "sub_micron_surface_grain_roughness",
+    "name": "Sub-Micron Surface Grain Roughness",
+    "definition": "The textural coarseness and presence of fine sub-micron granular or nodular asperities covering the primary structural facets.",
+    "description": "The textural coarseness and presence of fine sub-micron granular or nodular asperities covering the primary structural facets.",
+    "scale_1": "Completely smooth, mirror-like facet surfaces without any visible nanoscale or sub-micron nodular roughness",
+    "scale_5": "Lightly stippled surface displaying faint, scattered micro-nodules or shallow textural rugosity",
+    "scale_10": "Extremely coarse, densely cauliflower-like or granular mantle of fine sub-micron asperities covering all surfaces",
+    "scoring_guide": "1: Completely smooth, mirror-like facet surfaces without any visible nanoscale or sub-micron nodular roughness; 5: Lightly stippled surface displaying faint, scattered micro-nodules or shallow textural rugosity; 10: Extremely coarse, densely cauliflower-like or granular mantle of fine sub-micron asperities covering all surfaces"
+  },
+  {
+    "concept_id": "depth_of_field_focal_degradation",
+    "name": "Depth-of-Field Focal Degradation",
+    "definition": "The extent to which features situated away from the primary focal plane exhibit optical blur and loss of high-frequency edge definition.",
+    "description": "The extent to which features situated away from the primary focal plane exhibit optical blur and loss of high-frequency edge definition.",
+    "scale_1": "Uniformly crisp high-frequency sharpness maintained across all visible structures in the image frame",
+    "scale_5": "Noticeable soft-focus blur affecting deeply recessed or distant background structures while foreground remains sharp",
+    "scale_10": "Severe, diffuse focal defocusing obscuring fine morphology across large portions of the field of view outside a narrow focal zone",
+    "scoring_guide": "1: Uniformly crisp high-frequency sharpness maintained across all visible structures in the image frame; 5: Noticeable soft-focus blur affecting deeply recessed or distant background structures while foreground remains sharp; 10: Severe, diffuse focal defocusing obscuring fine morphology across large portions of the field of view outside a narrow focal zone"
+  },
+  {
+    "concept_id": "structural_branching_junction_density",
+    "name": "Structural Branching Junction Density",
+    "definition": "The frequency of multi-arm interconnected node intersections and branch-points per unit area within skeletal or filamentous networks.",
+    "description": "The frequency of multi-arm interconnected node intersections and branch-points per unit area within skeletal or filamentous networks.",
+    "scale_1": "Absence of branched nodal intersections, consisting entirely of unbranched segments, isolated points, or bulk continuous mass",
+    "scale_5": "Occasional nodal connections and y-junctions linking segments into a loosely connected meshwork",
+    "scale_10": "Profuse, highly interconnected multiaxial nodal network dominated by dense, interlocking star-like junction points",
+    "scoring_guide": "1: Absence of branched nodal intersections, consisting entirely of unbranched segments, isolated points, or bulk continuous mass; 5: Occasional nodal connections and y-junctions linking segments into a loosely connected meshwork; 10: Profuse, highly interconnected multiaxial nodal network dominated by dense, interlocking star-like junction points"
+  },
+  {
+    "concept_id": "geometric_angularity_of_protruding_features",
+    "name": "Geometric Angularity of Protruding Features",
+    "definition": "The degree to which elevated surface microstructures exhibit sharp, planar-faceted, and acute pyramidal apexes rather than smoothly curved or hemispherical contours.",
+    "description": "The degree to which elevated surface microstructures exhibit sharp, planar-faceted, and acute pyramidal apexes rather than smoothly curved or hemispherical contours.",
+    "scale_1": "Features are entirely smooth, spherical, or softly rounded with no planar facets or sharp apexes.",
+    "scale_5": "Features exhibit a mix of rounded curvatures and defined edges or moderate polygonal facets.",
+    "scale_10": "Features terminate in exceptionally sharp, acute needle-like points or crisp, planar polyhedral facets.",
+    "scoring_guide": "1: Features are entirely smooth, spherical, or softly rounded with no planar facets or sharp apexes.; 5: Features exhibit a mix of rounded curvatures and defined edges or moderate polygonal facets.; 10: Features terminate in exceptionally sharp, acute needle-like points or crisp, planar polyhedral facets."
+  },
+  {
+    "concept_id": "curvilinear_tortuosity_of_filamentous_strands",
+    "name": "Curvilinear Tortuosity of Filamentous Strands",
+    "definition": "The degree of bending, looping, and structural curvature exhibited by individual continuous wire or fiber segments relative to straight linear paths.",
+    "description": "The degree of bending, looping, and structural curvature exhibited by individual continuous wire or fiber segments relative to straight linear paths.",
+    "scale_1": "Elements are completely straight and linear with zero detectable bending or curvature.",
+    "scale_5": "Elements exhibit gentle, moderate arc curvatures with large radii of curvature.",
+    "scale_10": "Elements are intensely curved, looped, curled, and twisted into tight helical or winding loops.",
+    "scoring_guide": "1: Elements are completely straight and linear with zero detectable bending or curvature.; 5: Elements exhibit gentle, moderate arc curvatures with large radii of curvature.; 10: Elements are intensely curved, looped, curled, and twisted into tight helical or winding loops."
+  },
+  {
+    "concept_id": "sub_micron_surface_granular_stippling_density",
+    "name": "Sub-Micron Surface Granular Stippling Density",
+    "definition": "The areal density of tiny, fine particulate precipitates or nodular granular stippling uniformly speckling the substrate or background plane.",
+    "description": "The areal density of tiny, fine particulate precipitates or nodular granular stippling uniformly speckling the substrate or background plane.",
+    "scale_1": "Background substrate is uniformly featureless, specular, or completely flat without particulate stippling.",
+    "scale_5": "Substrate displays a scattered, moderate coverage of faint nano-nodules or stippled surface asperities.",
+    "scale_10": "Substrate is densely and continuously textured with an unbroken carpet of fine granular asperities and nodular stippling.",
+    "scoring_guide": "1: Background substrate is uniformly featureless, specular, or completely flat without particulate stippling.; 5: Substrate displays a scattered, moderate coverage of faint nano-nodules or stippled surface asperities.; 10: Substrate is densely and continuously textured with an unbroken carpet of fine granular asperities and nodular stippling."
+  },
+  {
+    "concept_id": "inter_unit_gap_discontinuity",
+    "name": "Inter-Unit Gap Discontinuity",
+    "definition": "The prominence and frequency of empty interstitial gaps interrupting contiguous linearly chained microstructural elements.",
+    "description": "The prominence and frequency of empty interstitial gaps interrupting contiguous linearly chained microstructural elements.",
+    "scale_1": "No interstitial gaps visible; elements form unbroken, continuous contiguous lines or uniform solid structures.",
+    "scale_5": "Periodic narrow voids or periodic necking gaps moderately segmenting linear features into identifiable units.",
+    "scale_10": "Frequent, well-defined open transverse gaps clearly separating linear sequences into completely discrete detached blocks or beads.",
+    "scoring_guide": "1: No interstitial gaps visible; elements form unbroken, continuous contiguous lines or uniform solid structures.; 5: Periodic narrow voids or periodic necking gaps moderately segmenting linear features into identifiable units.; 10: Frequent, well-defined open transverse gaps clearly separating linear sequences into completely discrete detached blocks or beads."
+  },
+  {
+    "concept_id": "concentric_curvature_gradient",
+    "name": "Concentric Curvature Gradient",
+    "definition": "The degree to which curvilinear features exhibit a systematic nesting of nested concentric rings with monotonically increasing radii of curvature.",
+    "description": "The degree to which curvilinear features exhibit a systematic nesting of nested concentric rings with monotonically increasing radii of curvature.",
+    "scale_1": "Completely absent; features are straight, random, or entangled without any nested concentric circular or elliptical arcs.",
+    "scale_5": "Moderate presence of curved nested features showing partial concentric arc segments over a localized portion of the field of view.",
+    "scale_10": "Dominant, highly ordered concentric ring morphology centered across the frame with smoothly expanding radial curvature.",
+    "scoring_guide": "1: Completely absent; features are straight, random, or entangled without any nested concentric circular or elliptical arcs.; 5: Moderate presence of curved nested features showing partial concentric arc segments over a localized portion of the field of view.; 10: Dominant, highly ordered concentric ring morphology centered across the frame with smoothly expanding radial curvature."
+  },
+  {
+    "concept_id": "inter_bundle_void_volume_fraction",
+    "name": "Inter-Bundle Void Volume Fraction",
+    "definition": "The areal fraction of deep black interstitial shadowed void space visible between macroscopic bundles or clusters of features.",
+    "description": "The areal fraction of deep black interstitial shadowed void space visible between macroscopic bundles or clusters of features.",
+    "scale_1": "Virtually zero interstitial void; the field is entirely filled by a solid, continuous, or tightly packed surface.",
+    "scale_5": "Moderate open void spaces occupy roughly a quarter to half of the visible area between separated feature groupings.",
+    "scale_10": "Extremely high void fraction; massive continuous empty dark vacuum regions dominate the background with sparse, isolated foreground structures.",
+    "scoring_guide": "1: Virtually zero interstitial void; the field is entirely filled by a solid, continuous, or tightly packed surface.; 5: Moderate open void spaces occupy roughly a quarter to half of the visible area between separated feature groupings.; 10: Extremely high void fraction; massive continuous empty dark vacuum regions dominate the background with sparse, isolated foreground structures."
+  },
+  {
+    "concept_id": "collimated_bundle_cohesion",
+    "name": "Collimated Bundle Cohesion",
+    "definition": "The degree to which adjacent individual filamentous strands remain tightly bundled into coherent macroscopic rope-like clusters rather than splaying into isolated strands.",
+    "description": "The degree to which adjacent individual filamentous strands remain tightly bundled into coherent macroscopic rope-like clusters rather than splaying into isolated strands.",
+    "scale_1": "No bundling; filaments are completely isolated, detached single strands, or the structure is entirely non-filamentous.",
+    "scale_5": "Filaments show partial loose clustering into identifiable strands with frequent fraying and lateral detachment.",
+    "scale_10": "Filaments are packed into dense, coherent, neatly gathered multi-fiber yarn or rope bundles with minimal stray individual fibers.",
+    "scoring_guide": "1: No bundling; filaments are completely isolated, detached single strands, or the structure is entirely non-filamentous.; 5: Filaments show partial loose clustering into identifiable strands with frequent fraying and lateral detachment.; 10: Filaments are packed into dense, coherent, neatly gathered multi-fiber yarn or rope bundles with minimal stray individual fibers."
+  },
+  {
+    "concept_id": "dispersed_phase_cluster_aggregation_degree",
+    "name": "Dispersed Phase Cluster Aggregation Degree",
+    "definition": "The degree to which discrete particulate inclusions aggregate into multi-particle clusters rather than remaining isolated singlets.",
+    "description": "The degree to which discrete particulate inclusions aggregate into multi-particle clusters rather than remaining isolated singlets.",
+    "scale_1": "Virtually all visible particles appear as isolated singlets with negligible direct particle-particle contact.",
+    "scale_5": "A moderate mix of isolated individual particles and small multiplet clusters containing 2 to 5 contacting particles.",
+    "scale_10": "Particles predominantly aggregate into extensive, dense multi-particle clusters and agglomerate colonies.",
+    "scoring_guide": "1: Virtually all visible particles appear as isolated singlets with negligible direct particle-particle contact.; 5: A moderate mix of isolated individual particles and small multiplet clusters containing 2 to 5 contacting particles.; 10: Particles predominantly aggregate into extensive, dense multi-particle clusters and agglomerate colonies."
+  },
+  {
+    "concept_id": "transverse_filament_diameter_monodispersity",
+    "name": "Transverse Filament Diameter Monodispersity",
+    "definition": "The degree of cross-sectional thickness uniformity across visible fibrous or columnar microstructural elements.",
+    "description": "The degree of cross-sectional thickness uniformity across visible fibrous or columnar microstructural elements.",
+    "scale_1": "High diameter polydispersity with pronounced thickness variations, taperings, or multi-modal fiber widths.",
+    "scale_5": "Moderate cross-sectional uniformity with noticeable minor variations in filament or column thickness.",
+    "scale_10": "Strictly monodisperse filaments exhibiting virtually identical, highly uniform transverse diameters throughout.",
+    "scoring_guide": "1: High diameter polydispersity with pronounced thickness variations, taperings, or multi-modal fiber widths.; 5: Moderate cross-sectional uniformity with noticeable minor variations in filament or column thickness.; 10: Strictly monodisperse filaments exhibiting virtually identical, highly uniform transverse diameters throughout."
+  },
+  {
+    "concept_id": "hexagonal_close_packing_coordination",
+    "name": "Hexagonal Close-Packing Coordination",
+    "definition": "The visual prevalence of six-fold hexagonal nearest-neighbor coordination in quasi-periodic or packed particulate arrays.",
+    "description": "The visual prevalence of six-fold hexagonal nearest-neighbor coordination in quasi-periodic or packed particulate arrays.",
+    "scale_1": "No six-fold or hexagonal nearest-neighbor arrangement; distribution is completely random, amorphous, or purely uncoordinated.",
+    "scale_5": "Localized patches of hexagonal or six-fold coordination surrounded by disordered or imperfectly packed regions.",
+    "scale_10": "Nearly ubiquitous, highly ordered hexagonal close-packing with consistent six-fold coordination across the visible array.",
+    "scoring_guide": "1: No six-fold or hexagonal nearest-neighbor arrangement; distribution is completely random, amorphous, or purely uncoordinated.; 5: Localized patches of hexagonal or six-fold coordination surrounded by disordered or imperfectly packed regions.; 10: Nearly ubiquitous, highly ordered hexagonal close-packing with consistent six-fold coordination across the visible array."
+  },
+  {
+    "concept_id": "free_standing_fiber_end_density",
+    "name": "Free-Standing Fiber End Density",
+    "definition": "The areal density of exposed, broken, or terminated fiber tips visibly projecting outward from bundle structures.",
+    "description": "The areal density of exposed, broken, or terminated fiber tips visibly projecting outward from bundle structures.",
+    "scale_1": "No visible exposed fiber tips or free ends; all strands are continuously looped or woven seamlessly through the field of view.",
+    "scale_5": "A sparse to moderate presence of isolated projecting fiber terminations or stray broken ends.",
+    "scale_10": "Abundant protruding fiber terminations and freely exposed ends densely bristling across the surface.",
+    "scoring_guide": "1: No visible exposed fiber tips or free ends; all strands are continuously looped or woven seamlessly through the field of view.; 5: A sparse to moderate presence of isolated projecting fiber terminations or stray broken ends.; 10: Abundant protruding fiber terminations and freely exposed ends densely bristling across the surface."
+  },
+  {
+    "concept_id": "sidewall_scalloping_prominence",
+    "name": "Sidewall Scalloping Prominence",
+    "definition": "The degree of regular periodic undulation or ripple-like scalloping visible along the vertical sidewalls of etched or raised microstructures.",
+    "description": "The degree of regular periodic undulation or ripple-like scalloping visible along the vertical sidewalls of etched or raised microstructures.",
+    "scale_1": "Sidewalls are completely smooth and uniform with no visible horizontal ripple or scalloped ridges.",
+    "scale_5": "Sidewalls show faint, moderately defined periodic horizontal ridges or scallops along sections of their depth.",
+    "scale_10": "Sidewalls display prominent, sharply defined, continuous periodic scallops or deep ripple bands spanning their full vertical extent.",
+    "scoring_guide": "1: Sidewalls are completely smooth and uniform with no visible horizontal ripple or scalloped ridges.; 5: Sidewalls show faint, moderately defined periodic horizontal ridges or scallops along sections of their depth.; 10: Sidewalls display prominent, sharply defined, continuous periodic scallops or deep ripple bands spanning their full vertical extent."
+  },
+  {
+    "concept_id": "open_loop_feature_curvature_openness",
+    "name": "Open-Loop Feature Curvature Openness",
+    "definition": "The presence and degree of hook-like, C-shaped, or open re-entrant loop geometry in repeated microstructures.",
+    "description": "The presence and degree of hook-like, C-shaped, or open re-entrant loop geometry in repeated microstructures.",
+    "scale_1": "Features are solid, closed, or linear with zero re-entrant open-loop or C-shaped geometry.",
+    "scale_5": "Features exhibit partial inward curving or notched profiles forming weak semi-enclosed cavities.",
+    "scale_10": "Features consist entirely of pronounced, distinct C-shaped or hook-like open loops surrounding deep central cavities.",
+    "scoring_guide": "1: Features are solid, closed, or linear with zero re-entrant open-loop or C-shaped geometry.; 5: Features exhibit partial inward curving or notched profiles forming weak semi-enclosed cavities.; 10: Features consist entirely of pronounced, distinct C-shaped or hook-like open loops surrounding deep central cavities."
+  },
+  {
+    "concept_id": "isolated_point_emitter_brightness_contrast",
+    "name": "Isolated Point-Emitter Brightness Contrast",
+    "definition": "The relative luminance contrast between isolated high-intensity point-like emission sites and an otherwise dark, low-signal background.",
+    "description": "The relative luminance contrast between isolated high-intensity point-like emission sites and an otherwise dark, low-signal background.",
+    "scale_1": "Uniform or gradually shaded field with no isolated, hyper-intense point emission sources against dark background.",
+    "scale_5": "A few localized bright features present against a medium-gray background with moderate tonal contrast.",
+    "scale_10": "Stark, extreme contrast consisting of pinpoint white emitter spots surrounded by a near-pitch-black zero-signal background.",
+    "scoring_guide": "1: Uniform or gradually shaded field with no isolated, hyper-intense point emission sources against dark background.; 5: A few localized bright features present against a medium-gray background with moderate tonal contrast.; 10: Stark, extreme contrast consisting of pinpoint white emitter spots surrounded by a near-pitch-black zero-signal background."
+  },
+  {
+    "concept_id": "inter_ridge_tapering_gradient",
+    "name": "Inter-Ridge Tapering Gradient",
+    "definition": "The rate at which elongated raised features narrow or taper along their longitudinal length.",
+    "description": "The rate at which elongated raised features narrow or taper along their longitudinal length.",
+    "scale_1": "Features maintain a strictly uniform, parallel cross-sectional width along their entire length without tapering.",
+    "scale_5": "Features exhibit a gentle, moderate narrowing along their length from base to apex.",
+    "scale_10": "Features exhibit severe, pronounced necking or acute linear tapering that drastically reduces their width over a short longitudinal distance.",
+    "scoring_guide": "1: Features maintain a strictly uniform, parallel cross-sectional width along their entire length without tapering.; 5: Features exhibit a gentle, moderate narrowing along their length from base to apex.; 10: Features exhibit severe, pronounced necking or acute linear tapering that drastically reduces their width over a short longitudinal distance."
+  },
+  {
+    "concept_id": "inter_filament_entanglement_interlacing",
+    "name": "Inter-Filament Entanglement Interlacing",
+    "definition": "The degree to which individual continuous fibrous strands physically weave over and under adjacent strand bundles.",
+    "description": "The degree to which individual continuous fibrous strands physically weave over and under adjacent strand bundles.",
+    "scale_1": "No interlacing or over-under weaving; features are parallel, non-fibrous, or strictly disjoint.",
+    "scale_5": "Moderate strand crossing where fiber bundles occasionally loop over adjacent groups.",
+    "scale_10": "Pervasive 3D textile-like interlacing with continuous loop structures alternately passing over and under interlocking yarn bundles.",
+    "scoring_guide": "1: No interlacing or over-under weaving; features are parallel, non-fibrous, or strictly disjoint.; 5: Moderate strand crossing where fiber bundles occasionally loop over adjacent groups.; 10: Pervasive 3D textile-like interlacing with continuous loop structures alternately passing over and under interlocking yarn bundles."
+  },
+  {
+    "concept_id": "macroscopic_dark_stain_cloudiness",
+    "name": "Macroscopic Dark Stain Cloudiness",
+    "definition": "The presence and areal extent of diffuse, low-contrast dark cloud-like shading artifacts or carbon contamination patches across the substrate.",
+    "description": "The presence and areal extent of diffuse, low-contrast dark cloud-like shading artifacts or carbon contamination patches across the substrate.",
+    "scale_1": "Uniform field brightness without large diffuse dark shaded patches or circular contamination halos.",
+    "scale_5": "Local, faint diffuse dark shading patches covering a minor fraction of the frame.",
+    "scale_10": "Prominent, large diffuse dark circular or cloud-like contamination stains heavily masking regional surface contrast.",
+    "scoring_guide": "1: Uniform field brightness without large diffuse dark shaded patches or circular contamination halos.; 5: Local, faint diffuse dark shading patches covering a minor fraction of the frame.; 10: Prominent, large diffuse dark circular or cloud-like contamination stains heavily masking regional surface contrast."
+  },
+  {
+    "concept_id": "irregular_boundary_etch_pit_cavity_area_fraction",
+    "name": "Irregular Boundary Etch Pit Cavity Area Fraction",
+    "definition": "The fractional surface area occupied by deep, dark, irregularly shaped etch pits and hollow cavities etched into the matrix.",
+    "description": "The fractional surface area occupied by deep, dark, irregularly shaped etch pits and hollow cavities etched into the matrix.",
+    "scale_1": "Complete absence of deep irregular cavity depressions or etch voids.",
+    "scale_5": "Scattered, localized irregular hollows and dark cavity pockets covering 5-10% of the surface.",
+    "scale_10": "Extensive coalesced networks of deep, dark, tortuous etch cavities occupying >25% of the visible surface.",
+    "scoring_guide": "1: Complete absence of deep irregular cavity depressions or etch voids.; 5: Scattered, localized irregular hollows and dark cavity pockets covering 5-10% of the surface.; 10: Extensive coalesced networks of deep, dark, tortuous etch cavities occupying >25% of the visible surface."
+  },
+  {
+    "concept_id": "periodic_grating_spatial_frequency",
+    "name": "Periodic Grating Spatial Frequency",
+    "definition": "The visual line density or repetition count of parallel alternating bright/dark linear gratings per unit field of view.",
+    "description": "The visual line density or repetition count of parallel alternating bright/dark linear gratings per unit field of view.",
+    "scale_1": "Absence of periodic parallel linear grating striations.",
+    "scale_5": "Moderately spaced parallel line arrays spanning across the field with intermediate cycle count.",
+    "scale_10": "Extremely high spatial frequency grating consisting of tightly spaced, dense parallel striations filling the entire field.",
+    "scoring_guide": "1: Absence of periodic parallel linear grating striations.; 5: Moderately spaced parallel line arrays spanning across the field with intermediate cycle count.; 10: Extremely high spatial frequency grating consisting of tightly spaced, dense parallel striations filling the entire field."
+  }
+]

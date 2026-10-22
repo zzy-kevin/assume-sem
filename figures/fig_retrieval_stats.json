@@ -1,0 +1,29 @@
+{
+  "aggregate": {
+    "dino_same_class_top5": 0.8750486066104991,
+    "assume_same_class_top5": 0.8058327932598832,
+    "dino_mean_abs_brightness_diff": 0.10525427758693695,
+    "assume_mean_abs_brightness_diff": 0.13003073632717133,
+    "frac_queries_assume_spans_more_brightness": 0.6727154893065457
+  },
+  "queries": [
+    {
+      "image_id": "L2_ae2939da222abba961de71df0650a182",
+      "cls": "Particles",
+      "dino_same": 0.0,
+      "assume_same": 1.0
+    },
+    {
+      "image_id": "L1_3ea6cef763323fe3bc18106a179052b4",
+      "cls": "Patterned_surface",
+      "dino_same": 0.0,
+      "assume_same": 1.0
+    },
+    {
+      "image_id": "L6_0779ea6e29fe39e5dabfa0e882a299dd",
+      "cls": "Nanowires",
+      "dino_same": 0.4,
+      "assume_same": 1.0
+    }
+  ]
+}
